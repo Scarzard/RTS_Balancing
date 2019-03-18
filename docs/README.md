@@ -28,16 +28,15 @@ R-P-S represents the choices we have.
 
 r-p-s represents the choices the enemy has.
 
-||r|p|s|
+|-|r|p|s|
 |---|---|---|---|
-| R| 0 | -1 | +1|
-| P| +1| 0  |-1 |
-| S|-1 | +1| 0|
+| **R**| 0 | -1 | +1|
+| **P**| +1| 0  |-1 |
+| **S**|-1 | +1| 0|
 
 Let's convert these numbers into the ratio of one player chosing one option vs the others. Theoretically speaking, the ideal ratio would be 1:1:1 since there's no throw that's used more often than the others and no choice grants you a higher win percentage.
 
 Taking into account the results provided by the table, we can extract the following formulas that will help us determine the payoff for each choice:
-
 
 `R = 0r + (-1)p + 1s`
 
