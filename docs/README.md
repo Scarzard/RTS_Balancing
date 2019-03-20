@@ -92,6 +92,35 @@ For the calculations, instead of using ratios, we will now use a term widely use
 
 
 
+## AI
+
+AI must fit the game's intended experience. Good AI is not only the one who can beat the player.
+
+### Make machine driven units more resilient
+
+By making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challegend when facing tougher enemies, therefore, he needs to build and think strategies that can work againts units that have more HP and damage. The process of making the player come up with the strategy indirectly makes him think that the AI is 
+
+### Make the AI have different personalities
+
+You should make every encounter and battle feel unique in a way that can be memorable for the player. Maybe one opponent can have a build order optimized in getting map control early in the game so they establish a superior economy than the player, so they would be ovwerwhelmed by a huge army. Perhaps another can have a build order that's suited for fast-paced games where the AI rushes the players base early on and tries to win via early and successful skirmishes.
+
+A great example of this concept is portayed in the game Civilization's single player modes, where the leaders all have their own uniqueness.
+
+### Good AI is predictable
+
+Halo's Tech Lead, Chris Butcher said: 
+> "*The goal is not to create something that is unpredictable. wha you want is AI that is consistent so that the player can give certain inputs. The player can do things and expect the AI will react in a certain way.*"
+
+This allows to play the game with **intentionality.** This is defined by Far-Cry's 2 designer as the following:
+
+> "*The ability of the player to divise his own meaningful goals through his understanding of the game dynamics.*"
+
+By making AI predictable, it encourages the player to develop and ideate plans that when executed successfully, is satisfying to observe the results. It wound't be the same if the same plan only worked half of the time. 
+
+
+
+
+
 
 
 
