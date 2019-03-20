@@ -57,7 +57,8 @@ S = p - r
 
 Since this is a zero-sum game, we can assume that the total payoff, regardless of the matchup that takes place the place, will be of 0. Therefore, we can assume that `R = P = S = 0`
 
-And the fact that our opponent must select throw, we can also make the assumption that `r + p + s = 1`
+And the fact that our opponent must select throw, we can also make the assumption that 
+`r + p + s = 1`
 
 With all these simple equations we can solve:
 
@@ -78,14 +79,16 @@ Theoretically speaking, these results shows us that the pick rate of how often a
 
 **Note:** This is just the extensive analysis of a zero-sum game. In the next section we will be using the formulas we got from here and we will try to apply it to any RTS game in order to balance it.
 
-## Applying zero-sum games to RTS
+### Applying zero-sum games to RTS
 
+Now we will create our own theoretical RTS game where we have 3 units: A, B, and C. A counter B, B counters C and C counters A. 
+For the calculations, instead of using ratios, we will now use a term widely used in RTS, and that's the resources units cost. 
 
-
-
-
-
-
+|-|Cost| % of health lost|
+|---|---|---|
+| **A**| 50 | 0 | 
+| **B**| 100| 20% |
+| **C**| 150 | 40%|
 
 
 
@@ -102,6 +105,8 @@ Theoretically speaking, these results shows us that the pick rate of how often a
 
 
 # Bibliography 
+
+#### Links
 [Game balance](https://en.wikipedia.org/wiki/Game_balance)
 
 [Introduction to unit balancing](http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/)
@@ -109,6 +114,12 @@ Theoretically speaking, these results shows us that the pick rate of how often a
 [Intransitive mechanics](https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/)
 
 [Pay-off table definition](http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx)
+
+[Pay-off table definition](http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx)
+
+#### Abstracts/PDFs
+
+
 
 ## Video
 [Perfect Imbalance by ExtraCredits](https://www.youtube.com/watch?v=e31OSVZF77w)
