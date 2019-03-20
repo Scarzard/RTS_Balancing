@@ -37,20 +37,59 @@ r-p-s represents the choices the enemy has.
 Let's convert these numbers into the ratio of one player chosing one option vs the others. Theoretically speaking, the ideal ratio would be 1:1:1 since there's no throw that's used more often than the others and no choice grants you a higher win percentage.
 
 Taking into account the results provided by the table, we can extract the following formulas that will help us determine the payoff for each choice:
+```
+R = 0r + (-1)p + 1s
 
-`R = 0r + (-1)p + 1s`
+P = 1r + 0p + (-1)s
 
-`P = 1r + 0p + (-1)s`
+S = (-1)r + 1p + 0s
+```
 
-`S = (-1)r + 1p + 0s`
+Using basic simplification methods we obtain:
 
-Using simple simplification methods we obtain:
+```
+R = s - p
 
-`R = s - p`
+P = r - s
 
-`P = r - s`
+S = p - r
+```
 
-`S = p - r`
+Since this is a zero-sum game, we can assume that the total payoff, regardless of the matchup that takes place the place, will be of 0. Therefore, we can assume that `R = P = S = 0`
+
+And the fact that our opponent must select throw, we can also make the assumption that `r + p + s = 1`
+
+With all these simple equations we can solve:
+
+```
+R = 0 = s - p -> p = s
+```
+We apply the exact same procedure for the last 2 equations and we get the following:
+
+```
+r + p + s = r + r + r = 1
+3r = 1 
+r = 1/3
+```
+
+Since r + p + s = 1, **p = 1/3** and **s = 1/3**
+
+Theoretically speaking, these results shows us that the pick rate of how often an action is taken is equal across all choices. But in the end of the day, humans would try to play randomly but they will inebitably fall under certain patterns and if you manage to pick up the habits that a certain player has, you can exploit it in order to win more games by countering their choice that is most likely to be taken.
+
+**Note:** This is just the extensive analysis of a zero-sum game. In the next section we will be using the formulas we got from here and we will try to apply it to any RTS game in order to balance it.
+
+## Applying zero-sum games to RTS
+
+
+
+
+
+
+
+
+
+
+
 
 
 
