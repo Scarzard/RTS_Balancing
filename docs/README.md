@@ -91,6 +91,20 @@ For the calculations, instead of using ratios, we will now use a term widely use
 | **C**| 150 | 40%|
 
 
+## Resource systems, management and control of its economy
+
+The dawn of resource systems can be tracked back in the 1990s where Dune 2 had a single collectable resource that was melange (or spice) that was gathered from sand and could be sold at certain locations for credits. And credits were used to upgrade units and structures.
+
+The system were a worker (or harvester) has to manually go to the location of the resource, collect it and bring it back to the main base was also developed in this game. 
+
+Since this pioneering design, different games have experimented different types of resources at the same time, its collection or gathering and the rate of expense of said resources.
+
+### Rate of expense
+
+- **Continuous:** 
+
+- **Discrete:** 
+
 
 ## Artificial Intelligence (AI)
 
@@ -147,19 +161,21 @@ An extremely good example analysing Final Fantasy XV's character, Prompto, who w
 ### Links
 
 #### Balancing
-- **Game balance:** https://en.wikipedia.org/wiki/Game_balance)
+- **Game balance:** https://en.wikipedia.org/wiki/Game_balance
 
 - **Introduction to unit balancing:** http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/
 
 - **Intransitive mechanics:** https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/
 
-- **Pay-off table definition:** http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx)
+- **Pay-off table definition:** http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx
 
 #### Resource/economy management 
 
 - **Resource systems:** http://www.oxeyegames.com/rts-game-play-part-2-resource-systems/
 
 - **Resource management in RTS:** https://waywardstrategy.com/2014/12/18/random-thoughts-on-resource-management-in-rts/
+
+- **Control of the economic processes:** https://waywardstrategy.com/2015/11/23/rts-design-thought-control-of-economic-processes/
 
 
 
