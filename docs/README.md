@@ -92,9 +92,11 @@ For the calculations, instead of using ratios, we will now use a term widely use
 
 
 
-## AI
+## Artificial Intelligence (AI)
 
 AI must fit the game's intended experience. Good AI is not only the one who can beat the player.
+
+The complexity of the AI within any game is 
 
 ### Make machine driven units more resilient
 
@@ -104,9 +106,9 @@ By making enemy units that the game itself controls, it makes the player thing t
 
 You should make every encounter and battle feel unique in a way that can be memorable for the player. Maybe one opponent can have a build order optimized in getting map control early in the game so they establish a superior economy than the player, so they would be ovwerwhelmed by a huge army. Perhaps another can have a build order that's suited for fast-paced games where the AI rushes the players base early on and tries to win via early and successful skirmishes.
 
-A great example of this concept is portayed in the game Civilization's single player modes, where the leaders all have their own uniqueness.
+A great example of this concept is portayed in the game Civilization's single player modes, where the leaders all have their own uniqueness, therefore, you have to develop a strategy for that single leader. And probably the same strategy won't work against another foe.
 
-### Good AI is predictable
+### AI needs to be predictable
 
 Halo's Tech Lead, Chris Butcher said: 
 > "*The goal is not to create something that is unpredictable. wha you want is AI that is consistent so that the player can give certain inputs. The player can do things and expect the AI will react in a certain way.*"
@@ -117,6 +119,23 @@ This allows to play the game with **intentionality.** This is defined by Far-Cry
 
 By making AI predictable, it encourages the player to develop and ideate plans that when executed successfully, is satisfying to observe the results. It wound't be the same if the same plan only worked half of the time. 
 
+### AI should be able to interact with the game's systems
+
+This is crucial when making an AI seem like it's alive and smart. This makes the player feel like the machine has the same choices. This behaviour can also be exploited by the player if he ever perceives a pattern in its behaviour. 
+
+In RTS games, this could be done by making the AI gather and manage resources in order to develop his own strategy (even if the machine has a higher income to make it harder to play against), instead of granting them for free and make them unlimited for the AI. Thus, making it nearly impossible for the player to deal with.
+
+### Make the AI react to player's actions
+
+If the machine notices that the player is focusing on getting a superior map control, they AI should fight for control too. You have to make that the AI is constantly trying to sabotage and get and edge over the player. It shouldn't blindly follow a programmed build order and stick to it no matter what. This are the instances where the machine feels like a machine. And we should always try to avoid that.
+
+This is also crucial to make every encounter feel unique. Because it prevents the player from just setting up a specific build order and beating every campaign with the same boring, unchanging strategy.
+
+### Good AI for friendlies!
+
+This is not intended to be applied to RTS because rarely, if not never, you won't be working alongside an AI-driven ally. But it's a nice way to add more value and meaning to the game. 
+
+An extremely good example analysing Final Fantasy XV's character, Prompto, who will be taking selfies when certain thresholds have been triggered or when the character feels like doing so. Gameplay wise, this has no value whatsoever. But it adds a tremendous amount of complexity to Prompto's character and makes him feel like he's self-aware.
 
 
 
@@ -133,9 +152,16 @@ By making AI predictable, it encourages the player to develop and ideate plans t
 
 
 
-# Bibliography 
 
-#### Links
+
+
+
+
+## Bibliography 
+
+### Links
+
+#### Balancing
 [Game balance](https://en.wikipedia.org/wiki/Game_balance)
 
 [Introduction to unit balancing](http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/)
@@ -144,14 +170,19 @@ By making AI predictable, it encourages the player to develop and ideate plans t
 
 [Pay-off table definition](http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx)
 
-[Pay-off table definition](http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx)
 
-#### Abstracts/PDFs
+### Abstracts/PDFs
+
+[**Really extensive** article about Balancing Real-Time Strategy Games](https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y)
+
+[Call for AI Research in RTS Games](https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)
 
 
 
-## Video
+### Video
 [Perfect Imbalance by ExtraCredits](https://www.youtube.com/watch?v=e31OSVZF77w)
+
+[What Makes Good AI? by Game Maker's Toolkit](https://youtu.be/9bbhJi0NBkk)
 
 
 
