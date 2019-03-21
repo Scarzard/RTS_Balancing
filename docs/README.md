@@ -101,9 +101,21 @@ Since this pioneering design, different games have experimented different types 
 
 ### Rate of expense
 
-- **Continuous:** 
+- **Continuous:** When spending any resource on something, the credit count is **continuosly** substracted from the player's bank until the purchase/upgrade is complete. This means that you can actually buy something that you initially don't have enough credits to buy. It can also be possible that you make multiple purchases and none of them will be completed. This system plays heavily with the income per second of the player.
 
-- **Discrete:** 
+- **Discrete:** When making making any kind of transaction, the credits are substracted **immediately** from the player's bank. This means that the player cannot make a purchase they cannot afford at that exact moment. This really simnplifies the economy that the players has to manage and allows the players to focus more on other important aspects of the games, such as the state of the macro or in base-building.
+
+**Note:** Essentially, both systems would yield the same exact amount of resources (assuming that the gathering rate is the exact same). However, the decision making widly varies between these two systems. The first one you could actually begin to build something ahead of time in order to cut off in building time. The second one is way more intuitive as anyone knows if they have enough credits to make a purchase. And in the case they don't, usually the game itself will alert the player that his action cannot be taken.
+
+### Types of gathering
+
+- **Active:** This usually requires 3 game entities in order to start producing income. One is the storage, the other one the worker and the last one is the resource field. This often means that there are limitations in the amount of resources available for each player. They will have to fight in order to establish control and be able to outgrowth the enemy in terms of economy.
+
+- **Passive:** The only entity needed is the one that would be extracting/gathering the resurce. This simplifies the gathering a lot as the onlything the players has to do is to defend his collectors and try to sabotage or destroy the oponents'. Usually, the amount of resource is infinite and it's not bound to the abundance that the maps has.
+
+### Control of economy and player agency
+
+
 
 
 ## Artificial Intelligence (AI)
@@ -114,7 +126,7 @@ The complexity of the AI within any game is
 
 ### Make machine driven units more resilient
 
-By making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challegend when facing tougher enemies, therefore, he needs to build and think strategies that can work againts units that have more HP and damage. The process of making the player come up with the strategy indirectly makes him think that the AI is 
+ty making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challegend when facing tougher enemies, therefore, he needs to build and think strategies that can work againts units that have more HP and damage. The process of making the player come up with a strategy indirectly makes him think that the AI is harder to deal with.
 
 ### Make the AI have different personalities
 
@@ -131,7 +143,7 @@ This allows to play the game with **intentionality.** This is defined by Far-Cry
 
 > "*The ability of the player to divise his own meaningful goals through his understanding of the game dynamics.*"
 
-By making AI predictable, it encourages the player to develop and ideate plans that when executed successfully, is satisfying to observe the results. It wound't be the same if the same plan only worked half of the time. 
+By making AI predictable, it encourages the player to develop and ideate plans that when executed successfully, is satisfying to observe the results. It wouldn't be the same if the same plan only worked half of the time. 
 
 ### AI should be able to interact with the game's systems
 
