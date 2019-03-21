@@ -142,47 +142,39 @@ An extremely good example analysing Final Fantasy XV's character, Prompto, who w
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Bibliography 
+## Bibliography and Webgraphy 
 
 ### Links
 
 #### Balancing
-[Game balance](https://en.wikipedia.org/wiki/Game_balance)
+- **Game balance:** https://en.wikipedia.org/wiki/Game_balance)
 
-[Introduction to unit balancing](http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/)
+- **Introduction to unit balancing:** http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/
 
-[Intransitive mechanics](https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/)
+- **Intransitive mechanics:** https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/
 
-[Pay-off table definition](http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx)
+- **Pay-off table definition:** http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx)
+
+#### Resource/economy management 
+
+- **Resource systems:** http://www.oxeyegames.com/rts-game-play-part-2-resource-systems/
+
+- **Resource management in RTS:** https://waywardstrategy.com/2014/12/18/random-thoughts-on-resource-management-in-rts/
+
 
 
 ### Abstracts/PDFs
 
-[**Really extensive** article about Balancing Real-Time Strategy Games](https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y)
+- ***Really extensive* article about Balancing Real-Time Strategy Games:** https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y
 
-[Call for AI Research in RTS Games](https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)
+- **Call for AI Research in RTS Games:** https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)
 
 
 
-### Video
-[Perfect Imbalance by ExtraCredits](https://www.youtube.com/watch?v=e31OSVZF77w)
+### Videography
+- **Perfect Imbalance by ExtraCredits:** https://www.youtube.com/watch?v=e31OSVZF77w
 
-[What Makes Good AI? by Game Maker's Toolkit](https://youtu.be/9bbhJi0NBkk)
+- **What Makes Good AI? by Game Maker's Toolkit:** https://youtu.be/9bbhJi0NBkk
 
 
 
