@@ -115,12 +115,17 @@ Since this pioneering design, different games have experimented different types 
 
 ### Control of economy and player agency
 
+In this section, we will analyze how the control of the game's economy (its resources) affects how the player can influence the game's state. 
+
+In RTS, one of the quintessential aspects is having an economic systems of some sort so that players must have a deep understanding of said system in order to find any possible exploits in order to leverage the advantage to their side. The absolute core of an RTS is not having hordes of units having a massive battle, but it's closely related to the adquisition and expenditure of what we will call **value.** Value is the pure definition for resources, not just the resource that any game uses per se, such as minerals and gas StarCraft but anything that you can purchase, trade or upgrade with it.  
+
+So why this aspect of RTS is the root of almost all games in this genre? The key word is progress. This system allows puts pressure on the players the moment a match begins for a race on who is the one that can collect more efficiently and spend it in the best possible way taking into consideration how his enemy plays. Progress is often represented with physical object that both users can interact with (units, structures or upgrades). The player has to intentionally invest his income in order to progress through the match by building, fighting and upgrading his base and army. 
 
 
 
 ## Artificial Intelligence (AI)
 
-AI must fit the game's intended experience. Good AI is not only the one who can beat the player.
+AI must fit the game's intended experience. Good AI is not only the one who can beat the player. 
 
 The complexity of the AI within any game is 
 
