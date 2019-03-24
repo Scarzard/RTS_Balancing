@@ -125,6 +125,18 @@ So why this aspect of RTS is the root of almost all games in this genre? The key
 
 This means that both players have the agency to **directly** interfere with his enemies' economy at any point of the game by sending troops to sabotage or preferably to destroy his collectors or kill his harvesters. This means that players **ought to lose** invested value in the form of buildings/troops. The more proactive and thoughtful actions that one players takes, the more overall agency he will possess. This means that he will have a wider array of options to influence the state of the game compared to his opponent, who fell
 
+
+## Technology tree
+
+A technology tree is the visual representation of all the possible upgrades and what what said upgrades unlock. This is closely related to the relationship between building and units and how both of these concepts are structured in a hiercarchical manner. 
+
+The main usage for these graphs, is for the developers to have a deep understanding of the game elements in their application and in which way they interact with one or the other. The second usage for these is related to its player base. They are extremely useful for new players to slowly graps the main mechanics of the game and, therefore, develop their own strategies when they have enough experience. It should be noted that the vast majority of the games **won't offer this graph to its players**. but there are instances where the players themselves reverse-engineer the game to obtain the graph by their own means.
+
+## How to create our own technological tree?
+
+
+
+
 ## Artificial Intelligence (AI)
 
 AI must fit the game's intended experience. Good AI is not only the one who can beat the player. 
