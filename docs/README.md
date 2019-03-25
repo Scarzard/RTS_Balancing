@@ -58,6 +58,7 @@ S = p - r
 Since this is a zero-sum game, we can assume that the total payoff, regardless of the matchup that takes place the place, will be of 0. Therefore, we can assume that `R = P = S = 0`
 
 And the fact that our opponent must select throw, we can also make the assumption that 
+
 `r + p + s = 1`
 
 With all these simple equations we can solve:
@@ -81,14 +82,82 @@ Theoretically speaking, these results shows us that the pick rate of how often a
 
 ### Applying zero-sum games to RTS
 
-Now we will create our own theoretical RTS game where we have 3 units: A, B, and C. A counter B, B counters C and C counters A. 
-For the calculations, instead of using ratios, we will now use a term widely used in RTS, and that's the resources units cost. 
+Now we will create our own theoretical RTS game where we have 3 units: The soldier, the sniper and the jetpack. The soldier counters the sniper, the sniper counters the jetpack and the jetpack counters the soldier.
+For the calculations, instead of using ratios, we will now use a term widely used in RTS, and that's the resources units cost. We will also subrtract a percentage of the cost based on the HP that the unit has lost but it's not dead yet.
 
 |-|Cost| % of health lost|
 |---|---|---|
-| **A**| 50 | 0 | 
-| **B**| 100| 20% |
-| **C**| 150 | 40%|
+| **Soldier**| 50 | 0 | 
+| **Sniper**| 100 | 40% |
+| **Jetpack**| 150 | 60%|
+
+The calculations for the following payoff table will be similar to what we have applied in the first section of the research where we were calculating the ratio of usage. In this case we will apply very similar equations to get the payoff or remaining value of a unit, or the value remaining when they face each other, for every possible encounter with our 3 theoretical units. The equation that we will use is the following `Payoff = Enemy cost * (% of lost HP / 100) - Allied cost`
+
+|-|Soldier|Sniper|Jetpack|
+|---|---|---|---|
+| **Soldier**| 50 - 50 | 100 - (50 * (40 / 100)) | (50 * (0 / 100)) - 150  |
+| **Sniper**| (50 * (40 / 100 )) - 100| 100 - 100  | 150 - (100 * (60 / 100)) |
+| **Jetpack**| 150 - (50 * (0 / 100)) | (100 * (60 / 100)) - 150 | 150 - 150 |
+
+Payoff equations for each possible encounter:
+
+```
+Soldier(S) vs Soldier(s') payoff: 50 - 50
+Soldier(S) vs Sniper(p') payoff: 100 - (50 * (40 / 100))
+Soldier(S) vs Jetpack(j'): (50 * (0 / 100)) - 150
+
+Sniper(P) vs Soldier payoff: (50 * (40 / 100 )) - 100
+Sniper(P) vs Sniper(p') payoff: 100 - 100
+Sniper(P) vs Soldier payoff: 150 - (100 * (60 / 100))
+
+Jetpack(J) vs Soldier(p') payoff: 150 - (50 * (0 / 100))
+Jetpack(J) vs Sniper(p') payoff: (100 * (60 / 100)) - 150
+Jetpack(J) vs Jetpack(j') payoff: 150 - 150
+```
+Payoff table for our theoretical units:
+
+|-|Soldier(S)|Sniper(P)|Jetpack(J)|
+|---|---|---|---|
+| **Soldier(s')**| 0 | 80 | -150 |
+| **Sniper(p')**| -80 | 0  | 90 |
+| **Jetpack(j')**| 150 | -90 | 0 |
+
+Now we will analyze the pick ratio of these units. Remember that in a R-P-S game or zero-sum game the pick ratio should be close to 1/3.
+
+```
+S =  0s' + 80p' + (-150j')
+P = (-80s') + 0p' + 90j'
+J = 150s' + (-90p') + 0j'
+```
+**Note:** We know that for total payoff of a zero-sum game will be 0. So we can assume `S + P + J = 0`. We can also assume that the probability of playing something will be of 1 because they will have to crate units in order to win. So we can also assume that `s' + p' + j' = 1`
+
+```
+S = -150j' + 80p' = 0
+P = -80s' + 90j' = 0
+J = -90p' + 150s' = 0
+
+80p' = 150j' --> p' = (15/8)j'
+90j' = 80s'  --> j' = (9/8)s'
+150s' = 90p' --> p' = (9/15)s'
+
+s' + p' + j' = 1
+
+s' + (9/8)s' + (9/15)s' = 1 --> 109/40s' = 1 --> s' = 0.37
+j' = (9/8) * 0.37  --> j' = 0.41
+p' = 1 - s' - j' = 1 - 0.37 - 0.41 = 0.22
+
+```
+
+#### Results analysis
+
+
+
+
+### Theory applied to armies
+
+As we all know, RTS does not involve in 1v1 fights between only 3 possible units. In this genre, massive-scale battles takes place in the map and throughout the course of the match so, even though the calculation we did previously greatly helps in balacing units, **it is not a definitive way to balance them.** The process is arduous and repetitive because it involes a lot of 
+
+
 
 
 ## Resource systems, management and control of its economy
