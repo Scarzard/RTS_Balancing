@@ -91,7 +91,9 @@ For the calculations, instead of using ratios, we will now use a term widely use
 | **Sniper**| 100 | 40% |
 | **Jetpack**| 150 | 60%|
 
-The calculations for the following payoff table will be similar to what we have applied in the first section of the research where we were calculating the ratio of usage. In this case we will apply very similar equations to get the payoff or remaining value of a unit, or the value remaining when they face each other, for every possible encounter with our 3 theoretical units. The equation that we will use is the following `Payoff = Enemy cost * (% of lost HP / 100) - Allied cost`
+The calculations for the following payoff table will be similar to what we have applied in the first section of the research where we were calculating the ratio of usage. In this case we will apply very similar equations to get the payoff or remaining value of a unit, or the value remaining when they face each other, for every possible encounter with our 3 theoretical units. The equation that we will use is the following 
+
+`Payoff = Enemy cost * (% of lost HP / 100) - Allied cost`
 
 |-|Soldier|Sniper|Jetpack|
 |---|---|---|---|
@@ -150,14 +152,41 @@ p' = 1 - s' - j' = 1 - 0.37 - 0.41 = 0.22
 
 #### Results analysis
 
+As we can see from the pick ratios we can assume that our game is decently balanced because the pick rates are fairly similar. There is no dominant unit that rules above other, thus there's no unit that players can abuse and utilize to win games. Some will argue that the Jetpack is a pretty dominant unit who is chosen 41% of the time. To balance the fundamental strength of a unit, we can lock it behind an upgrade in our technological tree, which will be explain further into the research but you can check what this concept is [here.]()
 
+In case we would want a perfectly balanced game where all units are chosen the same amount of time, by simply looking at the ratios, we can assume that either snipers are not very cost effective, therefore we should lower their cost, or jetpacks are offer way more value for its cost than other unit. So by rising the cost of this unit it should drive people away from  mass-producing this unit. Although, this procedure is **not encouraged** unless there's a clear dominance from one unit.
+
+What we actually want is not a perfectly balanced game where units have the perfect trade off every single time. We want **some units to deviate from the balanced curve** that our game inherently has. Developers from Wizards of the Coast called it "The Jedi Curve", and they allowed their cards to deviate from said curve positively or negatively by 10-15%. this brough a wider array of options to choose from by simply making some units stronger than others.
 
 
 ### Theory applied to armies
 
-As we all know, RTS does not involve in 1v1 fights between only 3 possible units. In this genre, massive-scale battles takes place in the map and throughout the course of the match so, even though the calculation we did previously greatly helps in balacing units, **it is not a definitive way to balance them.** The process is arduous and repetitive because it involes a lot of 
+As we all know, RTS does not involve in 1v1 fights between only 3 possible units. In this genre, massive-scale battles takes place in the map and throughout the course of the match so, even though the calculations we did previously greatly helps in balancing units, **it is not a definitive way to balance them.** The process is **arduous and repetitive because it involes a lot of playtesting and trial and error.**
+
+In this section, we will discuss a way to get the abstract value of an army vs the other. For simplicity's sake, we will use the units we have created before.
+
+We will assume that one player has a the following army: 15 soldiers, 19 snipers and 10 jetpacks. 
+And the other has an army of:                            26 soldiers, 7 snipers and 12 jetpacks. 
+
+P1 has 44 total units. P2 has 45 units. So the armies have an extremely similar value when it comes to numbers. Now let's try to analyze this mathematically.
+
+`Negative payoffs = (soldier_count - enemy_jetpack_count) * payoff + (sniper_count - enemy_soldier_count) * payoff  + (jetpack_count - enemy_sniper_count) * payoff `
+
+`Positive payoffs = (soldier_count - enemy_sniper_count) * payoff + (sniper_count - enemy_jetpack_count) * payoff  + (jetpack_count - enemy_soldier_count) * payoff `
+
+```
+Negative payoffs = (15 - 12) * -150 + (19 - 26) * -80  + (10 - 7) * -90 = -450 + 560 + -270 = -160
+
+Positive payoffs = (15 - 7) * 80 + (19 - 12) * 90  + (10 - 26) * 150 = 640 + 630 - 2400 = 
+
+```
 
 
+|-|Soldier(S)|Sniper(P)|Jetpack(J)|
+|---|---|---|---|
+| **Soldier(s')**| 0 | 80 | -150 |
+| **Sniper(p')**| -80 | 0  | 90 |
+| **Jetpack(j')**| 150 | -90 | 0 |
 
 
 ## Resource systems, management and control of its economy
@@ -214,7 +243,7 @@ The complexity of the AI within any game is
 
 ### Make machine driven units more resilient
 
-ty making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challenged when facing tougher enemies, therefore, he needs to build and think strategies that can work against units that have more HP and damage. The process of making the player come up with a strategy indirectly makes him think that the AI is harder to deal with.
+By making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challenged when facing tougher enemies, therefore, he needs to build and think strategies that can work against units that have more HP and damage. The process of making the player come up with a strategy indirectly makes him think that the AI is harder to deal with.
 
 ### Make the AI have different personalities
 
@@ -250,10 +279,6 @@ This is also crucial to make every encounter feel unique. Because it prevents th
 This is not intended to be applied to RTS because rarely, if not never, you won't be working alongside an AI-driven ally. But it's a nice way to add more value and meaning to the game. 
 
 An extremely good example analysing Final Fantasy XV's character, Prompto, who will be taking selfies when certain thresholds have been triggered or when the character feels like doing so. Gameplay wise, this has no value whatsoever. But it adds a tremendous amount of complexity to Prompto's character and makes him feel like he's self-aware.
-
-
-
-
 
 
 ## Bibliography and Webgraphy 
