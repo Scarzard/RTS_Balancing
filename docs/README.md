@@ -10,39 +10,50 @@ In this project, I will be covering the basic concepts of balancing an RTS game 
 # Index
 
 
-* [1. Game balance](https://github.com/Scarzard/StormHowlers/wiki/1.-Original-Game:-Command-&-Conquer-Red-Alert-2) 
-   * [C&C Analysis](https://github.com/Scarzard/StormHowlers/wiki/1.-Original-Game:-Command-&-Conquer-Red-Alert-2#command--conquer-analysis)
+* [1. Game balance](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#1-game-balance) 
 
-* [2. Unit balancing](https://github.com/Scarzard/StormHowlers/wiki/2.-GDD-(Game-Design-Document)) 
-    * [Overview](https://github.com/Scarzard/StormHowlers/wiki/2.-GDD-(Game-Design-Document)#overview)
-    * [Game Pillars](https://github.com/Scarzard/StormHowlers/wiki/2.-GDD-(Game-Design-Document)#game-pillars)
+* [2. Unit balancing](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#2-unit-balancing) 
+    * [Zero-sum games](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#zero-sum-games)
+    * [Applying zero-sum games to RTS](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#applying-zero-sum-games-to-rts)
+      * [Results analysis](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#results-analysis)
+    * [Theory applied to armies](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#theory-applied-to-armies)
 
-* [3. Asymmetrical balancing](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document)
-    * [Main Menu](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document#main-menu)
+* [3. Asymmetrical balancing](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#3-asymmetrical-balancing)
+    * [Ways to approach asymmetric design](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#ways-to-approach-asymmetric-design)
 
-* [4. Defining gameplay styles in RTS](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
-    * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+* [4. Defining gameplay styles in RTS](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#4-defining-gameplay-styles-in-rts)
 
-* [5. Resource systems, management and control of its economy](https://github.com/Scarzard/StormHowlers/wiki/5.-Art-Bible)
-    * [Sprite Library](https://github.com/Scarzard/StormHowlers/wiki/5.-Art-Bible#sprite-library) 
-    * [Art Style](https://github.com/Scarzard/StormHowlers/wiki/5.-Art-Bible#art-style)
+* [5. Resource systems, management and control of its economy](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#5-resource-systems-management-and-control-of-its-economy)
+    * [Rate of expense](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#rate-of-expense) 
+    * [Types of gathering](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#types-of-gathering)
+    * [Control of economy and player agency](Control of economy and player agency)
     
-* [6. Technology tree](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document)
-    * [Main Menu](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document#main-menu)
+* [6. Technology tree](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#6-technology-tree)
+    * [How to create our own technological tree?](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#how-to-create-our-own-technological-tree)
 
-* [7. Artificial Intelligence (AI)](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
-    * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
-* [8. Single-player modes](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document)
-    * [Main Menu](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document#main-menu)
-
-* [9. Map design and balance for SCII](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
-    * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+* [7. Artificial Intelligence (AI)](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#7-artificial-intelligence-ai)
+    * [Make machine driven units more resilient](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#make-machine-driven-units-more-resilient)
+    * [Make the AI have different personalities](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#make-the-ai-have-different-personalities)
+    * [AI needs to be predictable](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#ai-needs-to-be-predictable)
+    * [AI should be able to interact with the game's systems](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#ai-should-be-able-to-interact-with-the-games-systems)
+    * [Make the AI react to player's actions](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#make-the-ai-react-to-players-actions)
+    * [Good AI for friendlies!](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#good-ai-for-friendlies)
     
-* [10. Conclusions and personal thoughts on the topic](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
-  * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+* [8. Single-player modes](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#8-single-player-modes)
+ 
+* [9. Map design and balance for SCII](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#9-map-design-and-balance-for-scii)
+    * [Chokepoints](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#chokepoints)
+    * [Openness](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#openness) 
+    * [Resource](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#resource)
+    * [Base location](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#base-location) 
+    * [Map symmetry](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#map-symmetry) 
+    
+* [10. Conclusions and personal thoughts on the topic](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#10-conclusions-and-personal-thoughts-on-the-topic)
   
 * [11. Bibliography, Webgraphy and Videography](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
-  * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+  * [Links](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#links)
+  * [Abstracts/PDFs](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#abstractspdfs)
+  * [Videography](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#videography)
     
 ## 1. Game Balance
 
@@ -55,6 +66,7 @@ In RTS, balancing is a core aspect of the design of this specific genre. This is
 ## 2. Unit balancing
 
 Arguably one of the most important aspects of an RTS game is the interactions between units in the battlefield to make the game feel like the strategies they've developed during the match have paid off.   
+
 In RTS games, the player has a wide array of possible options when it comes to troop creation. Said troops **must** have a strength. This means that the unit must be better than other ones at doing a specific task or job. Nevertheless, they also **must** have some kind of inherent weakness that the other player facing that unit can exploit. And, more often than not, the mix of weaknesses of the units it's what makes the game truly fun, and that's what we are aiming to create.
 
 ### Zero-sum games
@@ -191,7 +203,7 @@ p' = 1 - s' - j' = 1 - 0.37 - 0.41 = 0.22
 
 #### Results analysis
 
-As we can see from the pick ratios we can assume that our game is decently balanced because the pick rates are fairly similar. There is no dominant unit that rules above other, thus there's no unit that players can abuse and utilize to win games. Some will argue that the Jetpack is a pretty dominant unit who is chosen 41% of the time. To balance the fundamental strength of a unit, we can lock it behind an upgrade in our technological tree, which will be explain further into the research but you can check what this concept is [here.]()
+As we can see from the pick ratios we can assume that our game is decently balanced because the pick rates are fairly similar. There is no dominant unit that rules above other, thus there's no unit that players can abuse and utilize to win games. Some will argue that the Jetpack is a pretty dominant unit who is chosen 41% of the time. To balance the fundamental strength of a unit, we can lock it behind an upgrade in our technological tree, which will be explain further into the research but you can check what this concept is [here.](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#6-technology-tree)
 
 In case we would want a perfectly balanced game where all units are chosen the same amount of time, by simply looking at the ratios, we can assume that either snipers are not very cost effective, therefore we should lower their cost, or jetpacks are offer way more value for its cost than other unit. So by rising the cost of this unit it should drive people away from  mass-producing this unit. Although, this procedure is **not encouraged** unless there's a clear dominance from one unit.
 
@@ -209,6 +221,7 @@ As we all know, RTS does not involve in 1v1 fights between only 3 possible units
 In this section, we will discuss a way to get the abstract value of an army vs the other. For simplicity's sake, we will use the units we have created before.
 
 We will assume that one player has a the following army: 15 soldiers, 19 snipers and 10 jetpacks. 
+
 And the other has an army of:                            26 soldiers, 7 snipers and 12 jetpacks. 
 
 P1 has 44 total units. P2 has 45 units. So the armies have an extremely similar value when it comes to numbers. Now let's try to analyze this mathematically.
@@ -282,7 +295,7 @@ This video explains further into what asymmetry requieres and how it makes games
 
   - **Zerg rush:** This concept is brought to its peak with the StarCraft faction, the Zergs. The Zergs are able to rapidly produce a huge army of small, offensive units called Zerglings. This army allows the player utilizing the strategy to quickly overwhelm his enemy early in the game. 
   
-  **Trivia:** If you seach "Zerg rush" in Google, an easter egg wil pop put where you have to destroy "zergligns"! It even counts the APM and it will keep track of the killcount.
+  **Trivia:** If you seach "Zerg rush" in Google, an easter egg wil pop put where you have to destroy "zerglings"! It even counts the APM (Actions Per Minute)and it will keep track of the killcount.
 
 - **Turtling:** Tutrtling, as the name defines, it focuses on base building and creating an impregnable defense that no matter what army the enemy brings, it wil hold off any offensive approaches. Then, when the player manages to repel and kill the enemy army, he retaliated with a counter attack that the enemies can't react in time to because they have spent all their resources on and army that is long dead. 
 
@@ -488,7 +501,8 @@ In StarCraft II, unit balancing is not a topic that developers touch with freque
 
 Chokepoints are essential when designing a map because it creates a point of contention for both players because whatever lies on the other is significantly easier to defend, thus, making successful attacks to the location is greatly reduced. Chokepoints are made by two main concepts: the **width** and if it's a **ramp** or not. 
 - **Width:** The width of a chokepoint is extremely important since a tight chokepoint makes ranged units excel and usually small skirmishes happen. But wider and more open chokepoints makes melee troops able to swarm and overwhelm. It also favors larger scale battles.
-- **Ramp:** If a chokepoint lead to a different elevation then it's called a ramp. This is especially important in StarCraft because having control of the high ground means receiving a passive buff that lasts for as long as you control said zone. Ramps is the most common way to balance or neutralize the strengths of the Zerg faction, more specifically, the Zerg Rushing tactic.
+
+- **Ramp:** If a chokepoint lead to a different elevation then it's called a ramp. This is especially important in StarCraft because having control of the high ground means receiving a passive buff that lasts for as long as you control said zone. Ramps is the most common way to balance or neutralize the strengths of the Zerg faction, more specifically, the [Zerg Rushing strategy](https://github.com/Scarzard/RTS_Balancing/tree/master/docs#4-defining-gameplay-styles-in-rts)
 
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/ramp.jpg">
