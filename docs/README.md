@@ -324,59 +324,60 @@ It was extremely interesting because there's just so many things to talk about t
 ### Links
 
 #### Balancing
-- **Game balance:** https://en.wikipedia.org/wiki/Game_balance
+- **Game balance:** <https://en.wikipedia.org/wiki/Game_balance)>
 
-- **Introduction to unit balancing:** http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/
+- **Introduction to unit balancing:** <http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/>
 
-- **Intransitive mechanics:** https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/
+- **Intransitive mechanics:** <https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/>
 
-- **Pay-off table definition:** http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx
+- **Pay-off table definition:** <http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx>
 
-- **Unit balancing discussion in forums:** https://www.gamedev.net/forums/topic/490139-balancing-units-in-a-rts/
+- **Unit balancing discussion in forums:** <https://www.gamedev.net/forums/topic/490139-balancing-units-in-a-rts/>
 
-https://forum.dune2k.com/topic/24505-rts-is-it-even-possible-to-balance/
+<https://forum.dune2k.com/topic/24505-rts-is-it-even-possible-to-balance/>
 
-- **Strategies employed in RTS:** https://www.abc.net.au/goodgamesp/episodes/5-up-top-rts-strategies/10405478
-  - **Rushing definition:** https://en.wikipedia.org/wiki/Rush_(video_gaming)
+- **Strategies employed in RTS:** <https://www.abc.net.au/goodgamesp/episodes/5-up-top-rts-strategies/10405478>
+
+  - **Rushing definition:** <https://en.wikipedia.org/wiki/Rush_(video_gaming)>
 
 
 #### Resource/economy management 
 
-- **Resource systems:** http://www.oxeyegames.com/rts-game-play-part-2-resource-systems/
+- **Resource systems:** <http://www.oxeyegames.com/rts-game-play-part-2-resource-systems/>
 
-- **Resource management in RTS:** https://waywardstrategy.com/2014/12/18/random-thoughts-on-resource-management-in-rts/
+- **Resource management in RTS:** <https://waywardstrategy.com/2014/12/18/random-thoughts-on-resource-management-in-rts/>
 
-- **Control of the economic processes:** https://waywardstrategy.com/2015/11/23/rts-design-thought-control-of-economic-processes/
+- **Control of the economic processes:** <https://waywardstrategy.com/2015/11/23/rts-design-thought-control-of-economic-processes/>
 
 #### Tech trees
 
-- **Technology tree:** https://en.wikipedia.org/wiki/Technology_tree
+- **Technology tree:** <https://en.wikipedia.org/wiki/Technology_tree>
 
-- **Technology Trees: Freedom and Determinism in Historical Strategy Game by Tuur Ghys:** http://www.gamestudies.org/1201/articles/tuur_ghys
+- **Technology Trees: Freedom and Determinism in Historical Strategy Game by Tuur Ghys:** <http://www.gamestudies.org/1201/articles/tuur_ghys>
 
 
 
 #### Single player campaigns and map design
 
-- **Level design for single player campaigns:** http://www.ultimaratioregum.co.uk/game/tag/rts/
+- **Level design for single player campaigns:** <http://www.ultimaratioregum.co.uk/game/tag/rts/>
 
 
 ### Abstracts/PDFs
 
-- ***Really extensive* article about Balancing Real-Time Strategy Games:** https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y
+- ***Really extensive* article about Balancing Real-Time Strategy Games:** <https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y>
 
-- **Call for AI Research in RTS Games:** https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)
+- **Call for AI Research in RTS Games:** <https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)>
 
-- **Balanced map generation for SC:** http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf
+- **Balanced map generation for SC:** <http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf>
 
 
 
 ### Videography
-- **Perfect Imbalance by ExtraCredits:** https://www.youtube.com/watch?v=e31OSVZF77w
+- **Perfect Imbalance by ExtraCredits:** <https://www.youtube.com/watch?v=e31OSVZF77w>
 
-- **What Makes Good AI? by Game Maker's Toolkit:** https://youtu.be/9bbhJi0NBkk
+- **What Makes Good AI? by Game Maker's Toolkit:** <https://youtu.be/9bbhJi0NBkk>
 
-- **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** https://www.youtube.com/watch?v=F1w-qCbYVe8
+- **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** <https://youtu.be/F1w-qCbYVe8>
 
 
 
