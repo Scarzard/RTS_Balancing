@@ -261,6 +261,28 @@ A technology tree is the visual representation of all the possible upgrades and 
 
 The main usage for these graphs, is for the developers to have a deep understanding of the game elements in their application and in which way they interact with one or the other. The second usage for these is related to its player base. They are extremely useful for new players to slowly grasp the main mechanics of the game and, therefore, develop their own strategies when they have enough experience. It should be noted that the vast majority of the games **won't offer this graph to its players**. But there are instances where the players themselves reverse-engineer the game to obtain the graph by their own means.
 
+As we can see in the following images, TTs can vary from fairly simple, to complex, to absolutely bonkers.
+
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/SCII%20TT.jpg" width ="500">
+</p>
+
+*StarCraft II Tech Tree*
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/Warcraft%20TT.jpg" width ="500">
+</p>
+
+*Warcraft Tech Tree*
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/PoE%20TT.jpg" width ="500">
+</p>
+
+*Path of Exile Tech Tree*
+
+
 ## How to create our own technological tree?
 
 In order to make our own technology tree(TT) we have to know what elements compose a TT: building and its upgrades, units and its upgrades.
@@ -282,7 +304,6 @@ Let's schematize what we just discussed in the image below:
 <p align="center">
   <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/tech%20tree.png">
 </p>
-
 
 ## Artificial Intelligence (AI)
 
