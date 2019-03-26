@@ -170,23 +170,36 @@ And the other has an army of:                            26 soldiers, 7 snipers 
 
 P1 has 44 total units. P2 has 45 units. So the armies have an extremely similar value when it comes to numbers. Now let's try to analyze this mathematically.
 
-`Negative payoffs = (soldier_count - enemy_jetpack_count) * payoff + (sniper_count - enemy_soldier_count) * payoff  + (jetpack_count - enemy_sniper_count) * payoff `
-
-`Positive payoffs = (soldier_count - enemy_sniper_count) * payoff + (sniper_count - enemy_jetpack_count) * payoff  + (jetpack_count - enemy_soldier_count) * payoff `
-
-```
-Negative payoffs = (15 - 12) * -150 + (19 - 26) * -80  + (10 - 7) * -90 = -450 + 560 + -270 = -160
-
-Positive payoffs = (15 - 7) * 80 + (19 - 12) * 90  + (10 - 26) * 150 = 640 + 630 - 2400 = 
-
-```
 
 
-|-|Soldier(S)|Sniper(P)|Jetpack(J)|
-|---|---|---|---|
-| **Soldier(s')**| 0 | 80 | -150 |
-| **Sniper(p')**| -80 | 0  | 90 |
-| **Jetpack(j')**| 150 | -90 | 0 |
+## Asymmetrical balancing
+
+So far, we have assumed that both players have the same exact units and structures. But in reality, some RTS follow this design and some choose to apply asymmetry in their game. And even if they don't apply and asymmetric approach, like in Warcraft II, where units from the Alliance or the Horde have the exact same stats (Dragon and Gryphon, Grunt and Footman) but they are visually different. What differs is the spells that each player gets from their units. This is a great way to make you game symmetrical when it comes to troop stats so it's easier to balance them. But having differences in the spells that you can use makes the faction adapt to a certain play style or another.
+
+Asymmetrical balancing is the way to make a game with factions or different themes for troops unique and make the players employ a certain strategy or another based on the strengths and weaknesses that each different faction carries.
+
+It is not necessary to make you game have additional factions because it might not even improve the game and making a game that has no mirrored factions is resource-consuming for the developer team. And you might be working on a feature that has no real positive impact on your game whatsoever, will make it harder to balance and you will lose time on a feature that might hinder the basic game flow.
+
+### Ways to approach asymmetric design
+
+The most basic and yet most important factor on considering the implementation of different factions is **variation.** This concept prevents the players to feel that the game is getting being repetitive and stagnant.
+
+The second one, closely related to the different strategis that players might want to utilize. Because, as we said, each faction has its inherent strengths and weaknesses, thus, catering a certain player base or another.
+
+Asymmetric design can be a tough thing to deal with when not implemented correctly because even if each faction excels in some way, having them balanced out in a taking into account all the possible variables that an RTS offers, can be a daunting task to deal with. What we should keep in mind is that even though certain factions are strong at employing a specific strategy, there's also a weakness to deal with. And following the concept of strength vs weakness from the unit balacing section, weaknesses often are the essential part that every faction should carry so that his enemy can create a plan around exploiting that weakness and giving him an edge.
+
+Asymmetric design if often related to map design, more so in StraCraft, where map design plays a huge role on keeping in check that strengths that each faction has. We will cover this topic later on the research.
+
+
+##  Defining gameplay styles in RTS
+
+- Rushing
+
+  - Zerg rush:
+
+- Turtling
+
+- Map control
 
 
 ## Resource systems, management and control of its economy
@@ -279,6 +292,8 @@ This is also crucial to make every encounter feel unique. Because it prevents th
 This is not intended to be applied to RTS because rarely, if not never, you won't be working alongside an AI-driven ally. But it's a nice way to add more value and meaning to the game. 
 
 An extremely good example analysing Final Fantasy XV's character, Prompto, who will be taking selfies when certain thresholds have been triggered or when the character feels like doing so. Gameplay wise, this has no value whatsoever. But it adds a tremendous amount of complexity to Prompto's character and makes him feel like he's self-aware.
+
+## Single player modes and map design
 
 
 ## Bibliography and Webgraphy 
