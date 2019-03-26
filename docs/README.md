@@ -7,13 +7,52 @@ I am [Victor Chen](https://www.linkedin.com/in/victor-chen-556670182), student o
 
 In this project, I will be covering the basic concepts of balancing an RTS game and taking a deep dive in the complexity that they inherently carry. Furthermore, I will explain some of the methods used in order to reach our desired objective.
 
-## Game Balance
+# Index
+
+
+* [1. Game balance](https://github.com/Scarzard/StormHowlers/wiki/1.-Original-Game:-Command-&-Conquer-Red-Alert-2) 
+   * [C&C Analysis](https://github.com/Scarzard/StormHowlers/wiki/1.-Original-Game:-Command-&-Conquer-Red-Alert-2#command--conquer-analysis)
+
+* [2. Unit balancing](https://github.com/Scarzard/StormHowlers/wiki/2.-GDD-(Game-Design-Document)) 
+    * [Overview](https://github.com/Scarzard/StormHowlers/wiki/2.-GDD-(Game-Design-Document)#overview)
+    * [Game Pillars](https://github.com/Scarzard/StormHowlers/wiki/2.-GDD-(Game-Design-Document)#game-pillars)
+
+* [3. Asymmetrical balancing](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document)
+    * [Main Menu](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document#main-menu)
+
+* [4. Defining gameplay styles in RTS](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
+    * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+
+* [5. Resource systems, management and control of its economy](https://github.com/Scarzard/StormHowlers/wiki/5.-Art-Bible)
+    * [Sprite Library](https://github.com/Scarzard/StormHowlers/wiki/5.-Art-Bible#sprite-library) 
+    * [Art Style](https://github.com/Scarzard/StormHowlers/wiki/5.-Art-Bible#art-style)
+    
+* [6. Technology tree](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document)
+    * [Main Menu](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document#main-menu)
+
+* [7. Artificial Intelligence (AI)](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
+    * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+* [8. Single-player modes](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document)
+    * [Main Menu](https://github.com/Scarzard/StormHowlers/wiki/3.-UI-Document#main-menu)
+
+* [9. Map design and balance for SCII](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
+    * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+    
+* [10. Conclusions and personal thoughts on the topic](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
+  * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+  
+* [11. Bibliography, Webgraphy and Videography](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible)
+  * [Music](https://github.com/Scarzard/StormHowlers/wiki/4.-Audio-Bible#music)
+    
+## 1. Game Balance
 
 First of all, in game design, the concept of balance is closely related to adjusting the rules and fine-tuning the stats for different game elements in order to avoid the abuse of one really strong mechanic/unit. Contrarily, you also don't want an ineffective or useless element that no one desires to use because of the fact that said element is overshadowed by everything else.
 
 In RTS, balancing is a core aspect of the design of this specific genre. This is because a slight over tune on a stat on a specific troop can make the game revolve around creating and swarming with said troop. Thus making the game stale and one-dimensional rather than one relying on wits and outmaneuvering your opponent with a superior strategy.
 
-## Unit balancing
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e31OSVZF77w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 2. Unit balancing
 
 Arguably one of the most important aspects of an RTS game is the interactions between units in the battlefield to make the game feel like the strategies they've developed during the match have paid off.   
 In RTS games, the player has a wide array of possible options when it comes to troop creation. Said troops **must** have a strength. This means that the unit must be better than other ones at doing a specific task or job. Nevertheless, they also **must** have some kind of inherent weakness that the other player facing that unit can exploit. And, more often than not, the mix of weaknesses of the units it's what makes the game truly fun, and that's what we are aiming to create.
@@ -207,7 +246,7 @@ In this clash of compositions, the winning team would theoretically be the VA1, 
 This was an excercice to determine which army would win vs another. But in practice this would be rendered useless because of the fact that there are **so many** variables to take into account that determines the outcome of a match that is virtually impossible for someone to pinpoint said variables. And it's way more difficult to actually give the variables a mathematical value which we can use to compute what will be the outcome.
 
 
-## Asymmetrical balancing
+## 3. Asymmetrical balancing
 
 So far, we have assumed that both players have the same exact units and structures. But in reality, some RTS follow this design and some choose to apply asymmetry in their game. And even if they don't apply and asymmetric approach, like in Warcraft II, where units from the Alliance or the Horde have the exact same stats (Dragon and Gryphon, Grunt and Footman) but they are visually different. What differs is the spells that each player gets from their units. This is a great way to make you game symmetrical when it comes to troop stats so it's easier to balance them. But having differences in the spells that you can use makes the faction adapt to a certain play style or another.
 
@@ -219,7 +258,7 @@ It is not necessary to make you game have additional factions because it might n
   <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/terran%20protoss%20zerg.png" width ="500">
 </p>
 
-*All credits for this image belongs to [Keyan3D](https://www.deviantart.com/keyan3d )*
+*All credits for this image belongs to [Keyan3D](https://www.deviantart.com/keyan3d)*
 
 ### Ways to approach asymmetric design
 
@@ -233,8 +272,11 @@ You should play around you game's strengths and reinforce them with asymmetric d
 
 Asymmetric design if often related to map design, more so in StraCraft, where map design plays a huge role on keeping in check that strengths that each faction has. We will cover this topic later on the research.
 
+This video explains further into what asymmetry requieres and how it makes games fun. It also gives a lot of examples:
 
-##  Defining gameplay styles in RTS
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F1w-qCbYVe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 4. Defining gameplay styles in RTS
 
 - **Rushing:** Rushing is the most simple yet effective strategy in an RTS game. This strategy revolves around the early creation and manipulation of cheap and expendable units as fast as possible. Then you send them rushing into the enemies' base before thay even get the chance to build up and economy or even build enough defensive troops. However, if the enemy anticipates this move and builds a counter for it, it sets the rushing player in a really precarious position where they spent all their initial resources into an army that died. Thus, setting them behind in all the aspects of the game. Such as expanding, base building and tech tree climbing.
 
@@ -251,7 +293,7 @@ Asymmetric design if often related to map design, more so in StraCraft, where ma
 - **Raiding:** Raiding focuses on small-scale skirmishes to make the enemy react to his actions. This often distracts the foe from effectively gathering resources and make small mistakes that over time, can cost him the game. And if the enemy doesn't defend from the raids, he can lose potential map control and thus, agency that will make him fall behind in every aspect of the game. A major downside is that if you gradually get countered when you raiding, the one falling behing would be one employing the strategy. 
 
 
-## Resource systems, management and control of its economy
+## 5. Resource systems, management and control of its economy
 
 The dawn of resource systems can be tracked back in the 1990s where Dune 2 had a single collectable resource that was melange (or spice) that was gathered from sand and could be sold at certain locations for credits. And credits were used to upgrade units and structures.
 
@@ -286,7 +328,7 @@ So why this aspect of RTS is the root of almost all games in this genre? The key
 This means that both players have the agency to **directly** interfere with his enemies' economy at any point of the game by sending troops to sabotage or preferably to destroy his collectors or kill his harvesters. This means that players **ought to lose** invested value in the form of buildings/troops. The more proactive and thoughtful actions that one players takes, the more overall agency he will possess. This means that he will have a wider array of options to influence the state of the game compared to his opponent, who fell behind because one player took more proactive actions, therefore, rising his agency throughout the course of the match.
 
 
-## Technology tree
+## 6. Technology tree
 
 A technology tree is the visual representation of all the possible upgrades and what said upgrades unlock. This is closely related to the relationship between building and units and how both of these concepts are structured in a hiercarchical manner. 
 
@@ -314,7 +356,7 @@ As we can see in the following images, TTs can vary from fairly simple, to compl
 *Path of Exile Tech Tree*
 
 
-## How to create our own technological tree?
+### How to create our own technological tree?
 
 In order to make our own technology tree(TT) we have to know what elements compose a TT: building and its upgrades, units and its upgrades.
 
@@ -336,7 +378,7 @@ Let's schematize what we just discussed in the image below:
   <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/tech%20tree.png">
 </p>
 
-## Artificial Intelligence (AI)
+## 7. Artificial Intelligence (AI)
 
 AI must fit the game's intended experience. Good AI is not only the one who can beat the player. It's one that offers interesting gameplay situations and complex decision-making. The complexity of the AI within any game is **directly proportional** on how you realistic you want the machine to feel.
 
@@ -397,7 +439,11 @@ An extremely good example analysing Final Fantasy XV's character, Prompto, who w
 
 *Prompto's selfie system in the form of a flowchart*
 
-## Single-player modes 
+In this video, it goes more in-depth about more sections that you should take into consideration when creating AI:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9bbhJi0NBkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 8. Single-player modes 
 
 So far, we have discussed balancing taking into consideration that our player is facing another player. But what abou the importance of single-player modes? These offer the players to play the game in a way that cannot be thought about in PvP games. This often rely on advanced map design and making the player think outside the box in order to beat the levels.
 
@@ -432,7 +478,7 @@ After you have dealt with both MTs, the waves will start to roll in and you'll h
 If you wnat to design your own single player, keep in mind how this specific level is designed and take the points that you think are relevalnt for your making your ow. Because making levels that are based on base-building, expanding and evolving and the only variable factor is how tough/numerous the enemies are can become really tiresome to complete.
 
 
-## Map design and balance for SCII
+## 9. Map design and balance for SCII
 
 Map design is a though and complex topic to handle, especially with abstract units and with a game that theoretically doesn't exist. That's the reasoning behind using one of the most famous RTS game of all time, StarCraft II.
 
@@ -463,13 +509,13 @@ In this section, you should decide how resources are split in the map. It's impo
 
 This needs to be well-defined because it's where the players will start on the map. It is extremely important that belligerent factions are not close to each other when starting. You should locate this points strategically so that the players will have a delayed encounter(in the ideal situation) when they are expanding their bases. They should allow the player to move to whatever location he desires, so it shouldn't block possible paths that both players can take.
 
-#### Base location
+### Base location
 
 An important property of locations is the amount of resources they contain. To be able to create balance in our maps, we should distribute our resources equally for each player. This doesn't mean that the enemy can't take this points of interest from you, even though it was designed that you should have it. A base location should be equidistant from all near resources. 
 
 The base layout is extremely important that they are close physically in order to counter [Medivac Drops](https://www.youtube.com/watch?v=YFm4MOPN3ME) for the Terran faction.
 
-#### Map symmetry
+### Map symmetry
 
 This is the absolute basic concept for balancing a map. Make sure that players are able to achieve the same thing and collect the same amount of resources. If a map lack this property, most likely, it will be deemed as extremely unbalanced and unfair.
 
@@ -483,7 +529,7 @@ Often, map creators will the the artifical look that a symmetrical map produces 
 
 You can also see competitive maps that are currently being used [here](https://liquipedia.net/starcraft2/Maps/Competition_Maps).
 
-## Conclusions and personal thoughts on the topic
+## 10. Conclusions and personal thoughts on the topic
 
 The methods I've explained **are not definitive.** This means that they should be used a guideline for balancing your own RTS. They will help you to focus you game on the right direction and, most likely, will allow you to establish a balanced base from where you should start from. 
 
@@ -493,7 +539,7 @@ This was a really interesting yet challenging topic to cover because I was not a
 
 It was extremely interesting because there's just so many things to talk about that it would be impossible for someone to cover each and every topic in this extremely complex yet seemigly simple genre. The deeper you dig into this topic, the lower you fall to a rabbit hole of wanting to know everything about balancing RTS games.
 
-## Bibliography and Webgraphy 
+## 11. Bibliography, Webgraphy and Videography
 
 ### Links
 
