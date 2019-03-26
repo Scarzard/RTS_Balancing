@@ -188,18 +188,24 @@ The second one, closely related to the different strategis that players might wa
 
 Asymmetric design can be a tough thing to deal with when not implemented correctly because even if each faction excels in some way, having them balanced out in a taking into account all the possible variables that an RTS offers, can be a daunting task to deal with. What we should keep in mind is that even though certain factions are strong at employing a specific strategy, there's also a weakness to deal with. And following the concept of strength vs weakness from the unit balacing section, weaknesses often are the essential part that every faction should carry so that his enemy can create a plan around exploiting that weakness and giving him an edge.
 
+You should play around you game's strengths and reinforce them with asymmetric design. What does this mean? That if you game has an excellent combat system, don't confuse the player by also implementing a complex resource system. Streamline the resource management as much as possible so that the players spend more time fighting than colleting.
+
 Asymmetric design if often related to map design, more so in StraCraft, where map design plays a huge role on keeping in check that strengths that each faction has. We will cover this topic later on the research.
 
 
 ##  Defining gameplay styles in RTS
 
-- Rushing
+- **Rushing:** Rushing is the most simple yet effective strategy in an RTS game. This strategy revolves around the early creation and manipulation of cheap and expendable units as fast as possible. Then you send them rushing into the enemies' base before thay even get the chance to build up and economy or even build enough defensive troops. However, if the enemy anticipates this move and builds a counter for it, it sets the rushing player in a really precarious position where they spent all their initial resources into an army that died. Thus, setting them behind in all the aspects of the game. Such as expanding, base building and tech tree climbing.
 
-  - Zerg rush:
+  - **Zerg rush:** This concept is brought to its peak with the StarCraft faction, the Zergs. The Zergs are able to rapidly produce a huge army of small, offensive units called Zerglings. This army allows the player utilizing the strategy to quickly overwhelm his enemy early in the game.
 
-- Turtling
+- **Turtling:** Tutrtling, as the name defines, it focuses on base building and creating an impregnable defense that no matter what army the enemy brings, it wil hold off any offensive approaches. Then, when the player manages to repel and kill the enemy army, he retaliated with a counter attack that the enemies can't react in time to because they have spent all their resources on and army that is long dead. 
 
-- Map control
+- **Map control:** Map control refers to the strategy involving control major parts of the map so he has more options to expand to and collect more resources than the enemy. Thus establishing an economic advantage that the enemy can't, in any way, counter because he doesn't have enough agency to do so. The downside for this tactic is that having to defend each point of contention in a wide area is often not even possible without prediction and foresight.
+
+- **Booming:** This strategy focuses on climbing the tech tree as fast as possible in order to unlock sturdier and more effective troops than his enemy. This leaves you main base completely defenseless against early enemy attacks. So you must identify players that will rush by scouting their base earlier than usual.
+
+- **Raiding:** Raiding focuses on small-scale skirmishes to make the enemy react to his actions. This often distracts the foe from effectively gathering resources and make small mistakes that over time, can cost him the game. And if the enemy doesn't defend from the raids, he can lose potential map control and thus, agency that will make him fall behind in every aspect of the game. A major downside is that if you gradually get countered when you raiding, the one falling behing would be one employing the strategy. 
 
 
 ## Resource systems, management and control of its economy
