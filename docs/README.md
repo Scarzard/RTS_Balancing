@@ -197,7 +197,10 @@ Asymmetric design if often related to map design, more so in StraCraft, where ma
 
 - **Rushing:** Rushing is the most simple yet effective strategy in an RTS game. This strategy revolves around the early creation and manipulation of cheap and expendable units as fast as possible. Then you send them rushing into the enemies' base before thay even get the chance to build up and economy or even build enough defensive troops. However, if the enemy anticipates this move and builds a counter for it, it sets the rushing player in a really precarious position where they spent all their initial resources into an army that died. Thus, setting them behind in all the aspects of the game. Such as expanding, base building and tech tree climbing.
 
-  - **Zerg rush:** This concept is brought to its peak with the StarCraft faction, the Zergs. The Zergs are able to rapidly produce a huge army of small, offensive units called Zerglings. This army allows the player utilizing the strategy to quickly overwhelm his enemy early in the game.
+  - **Zerg rush:** This concept is brought to its peak with the StarCraft faction, the Zergs. The Zergs are able to rapidly produce a huge army of small, offensive units called Zerglings. This army allows the player utilizing the strategy to quickly overwhelm his enemy early in the game. 
+  **Trivia:** If you seach "Zerg rush" in Google, an easter egg wil pop put where you have to destroy "zergligns"! It even counts the APM and it will keep track of the killcount.
+  
+
 
 - **Turtling:** Tutrtling, as the name defines, it focuses on base building and creating an impregnable defense that no matter what army the enemy brings, it wil hold off any offensive approaches. Then, when the player manages to repel and kill the enemy army, he retaliated with a counter attack that the enemies can't react in time to because they have spent all their resources on and army that is long dead. 
 
@@ -251,7 +254,7 @@ The main usage for these graphs, is for the developers to have a deep understand
 
 ## How to create our own technological tree?
 
-
+TODO
 
 
 ## Artificial Intelligence (AI)
@@ -301,6 +304,8 @@ An extremely good example analysing Final Fantasy XV's character, Prompto, who w
 
 ## Single player modes and map design
 
+TODO
+
 
 ## Bibliography and Webgraphy 
 
@@ -315,6 +320,14 @@ An extremely good example analysing Final Fantasy XV's character, Prompto, who w
 
 - **Pay-off table definition:** http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx
 
+- **Unit balancing discussion in forums:** https://www.gamedev.net/forums/topic/490139-balancing-units-in-a-rts/
+
+https://forum.dune2k.com/topic/24505-rts-is-it-even-possible-to-balance/
+
+- **Strategies employed in RTS:** https://www.abc.net.au/goodgamesp/episodes/5-up-top-rts-strategies/10405478
+  - **Rushing definition:** https://en.wikipedia.org/wiki/Rush_(video_gaming)
+
+
 #### Resource/economy management 
 
 - **Resource systems:** http://www.oxeyegames.com/rts-game-play-part-2-resource-systems/
@@ -323,6 +336,17 @@ An extremely good example analysing Final Fantasy XV's character, Prompto, who w
 
 - **Control of the economic processes:** https://waywardstrategy.com/2015/11/23/rts-design-thought-control-of-economic-processes/
 
+#### Tech trees
+
+- **Technology tree:** https://en.wikipedia.org/wiki/Technology_tree
+
+- **Technology Trees: Freedom and Determinism in Historical Strategy Game by Tuur Ghys:** http://www.gamestudies.org/1201/articles/tuur_ghys
+
+
+
+#### Single player campaigns and map design
+
+- **Level design for single player campaigns:** http://www.ultimaratioregum.co.uk/game/tag/rts/
 
 
 ### Abstracts/PDFs
@@ -331,12 +355,16 @@ An extremely good example analysing Final Fantasy XV's character, Prompto, who w
 
 - **Call for AI Research in RTS Games:** https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)
 
+- **Balanced map generation for SC:** http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf
+
 
 
 ### Videography
 - **Perfect Imbalance by ExtraCredits:** https://www.youtube.com/watch?v=e31OSVZF77w
 
 - **What Makes Good AI? by Game Maker's Toolkit:** https://youtu.be/9bbhJi0NBkk
+
+- **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** https://www.youtube.com/watch?v=F1w-qCbYVe8
 
 
 
