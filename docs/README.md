@@ -174,7 +174,38 @@ And the other has an army of:                            26 soldiers, 7 snipers 
 
 P1 has 44 total units. P2 has 45 units. So the armies have an extremely similar value when it comes to numbers. Now let's try to analyze this mathematically.
 
-TODO
+`Army value(AV) = PP + NP`
+
+`Negative payoffs (NP) = (soldier_count / enemy_jetpack_count) * payoff + (sniper_count / enemy_soldier_count) * payoff  + (jetpack_count / enemy_sniper_count) * payoff `
+
+
+`Positive payoffs (PP) = (soldier_count / enemy_sniper_count) * payoff + (sniper_count / enemy_jetpack_count) * payoff  + (jetpack_count / enemy_soldier_count) * payoff `
+
+
+
+First, we will calculate the overall value for one army and the the other. This is P1's value:
+
+```
+
+Negative payoffs (NP1) = (15 / 12) * -150 + (19 / 26) * -80  + (10 / 7) * -90
+NP1 = -187.5 - 58.4 - 128.6 = -374.5
+Positive payoffs (PP1) = (15 / 7) * 80 + (19 / 12) * 90  + (10 / 26) * 150
+PP1 = 171.4 + 142.5 + 57.7 = 371.6
+VA1 = 371.6 - 374.5 = -2.9
+
+Negative payoffs (NP2) = (26 / 10) * -150 + (7 / 15) * -80  + (12 / 19) * -90
+NP1 = -390 -37.3 - 56.8 = -484.1
+Positive payoffs (PP2) = (26 / 19) * 80 + (7 / 10) * 90  + (12 / 15) * 150
+PP2 = 109.5 + 63 + 120 = 292.5
+VA2 = -484.1 + 292.5 = -191.6
+
+VA2 < VA1 --> [-191.6 < -2.9]
+```
+
+In this clash of compositions, the winning team would theoretically be the VA1, assuming they play a perfect micro.
+
+This was an excercice to determine which army would win vs another. But in practice this would be rendered useless because of the fact that there are **so many** variables to take into account that determines the outcome of a match that is virtually impossible for someone to pinpoint said variables. And it's way more difficult to actually give the variables a mathematical value which we can use to compute what will be the outcome.
+
 
 ## Asymmetrical balancing
 
