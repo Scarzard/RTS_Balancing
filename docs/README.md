@@ -253,7 +253,23 @@ The main usage for these graphs, is for the developers to have a deep understand
 
 ## How to create our own technological tree?
 
-TODO
+In order to make our own technology tree(TT) we have to know what elements compose a TT: building and its upgrades, units and its upgrades.
+
+For simplicity's sake, we will use the units he have created earlier in the unit balancing section. So we have 3 possible units that we are able to create. We will also need some sort of buildings that manages the upgrades of the units and allows us to create more powerful ones. Here's a list of what we will have available:
+
+|Buildings|Units|Upgrades|
+|---|---|---|
+| Town hall| Soldier | Soldier upgrade | 
+| Barracks| Sniper | Sniper upgrade  | 
+| Barracks II| Jetpck |  Jetpak upgrade | 
+
+The TT should be a representation of how all these elements are linked together to understand how your own games works. But it should also be useful for players as a visual guide on how different game elements interact with eachother. 
+
+The next step is thinking on what units should be available the moment a match starts and which units should be unlocked as the player progresses on the TT. What I would do in this specific case, is to have the snipers unlocked at the beginning while the other troops are locked behind a building. This means that you have to build said building to unlock it. After you build the barracks, you unlock the counter for sniper's the soldier. And at the same time, the sniper upgrade is offered to the player by the town hall. So the first important decision that the player should take is whether upgrade snipers or unlock their counter. After building barracks, the player is offered if he wants to upgrade his soldiers or unlock the counter for the soldiers, the jectpacks, by upgrading his barracks. And last, the barracks II offers the player to upgarde his jetpacks so thei are more powerful. 
+
+Let's schematize what we just discussed in the image below:
+
+IMAGE GOES HERE
 
 
 ## Artificial Intelligence (AI)
@@ -262,7 +278,7 @@ AI must fit the game's intended experience. Good AI is not only the one who can 
 
 In this section, we will go through some main points that you can apply to you game so that AI feels more realistic or challenging.
 
-Keep in mind that this in not a technical guide on how to *implement* AI in your game.
+*Keep in mind that this in not a technical guide on how to implement AI in your game*
 
 ### Make machine driven units more resilient
 
@@ -303,7 +319,27 @@ This is not intended to be applied to RTS because rarely, if not never, you won'
 
 An extremely good example analysing Final Fantasy XV's character, Prompto, who will be taking selfies when certain thresholds have been triggered or when the character feels like doing so. Gameplay wise, this has no value whatsoever. But it adds a tremendous amount of complexity to Prompto's character and makes him feel like he's self-aware.
 
-## Single player modes 
+## Single-player modes 
+
+So far, we have discussed balancing taking into consideration that our player is facing another player. But what abou the importance of single-player modes? These offer the players to play the game in a way that cannot be thought about in PvP games. This often rely on advanced map design and making the player think outside the box in order to beat the levels.
+
+I will be discussing the fascinating world of single-player modes on specific level in the [original Command&Conquer](https://en.wikipedia.org/wiki/Command_%26_Conquer).
+
+*Disclaimer: All the images and information are extracted from the following website. All credits to the original author, [Dr. Mark R. Johnson](http://www.ultimaratioregum.co.uk/about-me/)*
+
+First of all, the objective of this mission is to earch the main objective, it's marked witha green cross. As we can observe, there's a chokepoint and the path is blocked by a pair of Mammoth Tanks(MT) one of these units alone would be enough to wipe you entire army, that is composed of 1 Mobile Contruction Vehicle, vital to beat this game, 1 light tank and 2 attack bikes with 2 buggies attached to them. Making a total of 6 starting units. This level requires you to cleverly utilize your extremely limited army to beat this seemingly impossible level and take advantage of the map's layout.
+
+The first step in order to beat this level is having one of you bikes lure a single MT and move it away from the chokepoint. The only thing you should do is lure it clockwise with the huge montain in the top-middle of the map. Once lured, you proceed to do the same whith the other buggy when the 1st one reaches 12 o'clock. After this has been done, you have to move your MCV to the destination.
+
+After this is done and you have your base under construction, you have 2 options: destroy the tanks or have the lured forever. The first choice is the more optimal one since having to constantly micromanage 2 bikes while defending, expanding and upgrading you base would distract you from efficiently carrying out these tasks. So the way to do it is to send one attack bike after each MT so the MT chases the buggy while the attack bike pokes it from behind untill both are destroyed. 
+
+*Visual representation of this tactic*
+
+After you have dealt with both MTs, the waves will start to roll in and you'll have to defend your base at all costs!
+
+**Summary:** this level design is carefully crafted so that the smallest detail has to play a big role in order for the player to beat the level. The first part of the mission a meticulous execution in order to surpass a seemingly impossible barrier that the MTs make.
+
+If you wnat to design your own single player, keep in mind how this specific level is designed and take the points that you think are relevalnt for your making your ow. Because making levels that are based on base-building, expanding and evolving and the only variable factor is how tough/numerous the enemies are can become really tiresome to complete.
 
 
 ### Map design and balance for SCII
@@ -324,7 +360,7 @@ It was extremely interesting because there's just so many things to talk about t
 ### Links
 
 #### Balancing
-- **Game balance:** <https://en.wikipedia.org/wiki/Game_balance)>
+- **Game balance:** <https://en.wikipedia.org/wiki/Game_balance/>
 
 - **Introduction to unit balancing:** <http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/>
 
@@ -351,9 +387,9 @@ It was extremely interesting because there's just so many things to talk about t
 
 #### Tech trees
 
-- **Technology tree:** <https://en.wikipedia.org/wiki/Technology_tree>
+- **Technology tree:** <https://en.wikipedia.org/wiki/Technology_tree/>
 
-- **Technology Trees: Freedom and Determinism in Historical Strategy Game by Tuur Ghys:** <http://www.gamestudies.org/1201/articles/tuur_ghys>
+- **Technology Trees: Freedom and Determinism in Historical Strategy Game by Tuur Ghys:** <http://www.gamestudies.org/1201/articles/tuur_ghys/>
 
 
 
@@ -364,20 +400,20 @@ It was extremely interesting because there's just so many things to talk about t
 
 ### Abstracts/PDFs
 
-- ***Really extensive* article about Balancing Real-Time Strategy Games:** <https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y>
+- ***Really extensive* article about Balancing Real-Time Strategy Games:** <https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y/>
 
-- **Call for AI Research in RTS Games:** <https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)>
+- **Call for AI Research in RTS Games:** <https://skatgame.net/mburo/ps/RTS-AAAI04.pdf/>
 
-- **Balanced map generation for SC:** <http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf>
+- **Balanced map generation for SC:** <http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf/>
 
 
 
 ### Videography
-- **Perfect Imbalance by ExtraCredits:** <https://www.youtube.com/watch?v=e31OSVZF77w>
+- **Perfect Imbalance by ExtraCredits:** <https://www.youtube.com/watch?v=e31OSVZF77w/>
 
-- **What Makes Good AI? by Game Maker's Toolkit:** <https://youtu.be/9bbhJi0NBkk>
+- **What Makes Good AI? by Game Maker's Toolkit:** <https://youtu.be/9bbhJi0NBkk/>
 
-- **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** <https://youtu.be/F1w-qCbYVe8>
+- **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** <https://youtu.be/F1w-qCbYVe8/>
 
 
 
