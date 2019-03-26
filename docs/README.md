@@ -156,7 +156,11 @@ As we can see from the pick ratios we can assume that our game is decently balan
 
 In case we would want a perfectly balanced game where all units are chosen the same amount of time, by simply looking at the ratios, we can assume that either snipers are not very cost effective, therefore we should lower their cost, or jetpacks are offer way more value for its cost than other unit. So by rising the cost of this unit it should drive people away from  mass-producing this unit. Although, this procedure is **not encouraged** unless there's a clear dominance from one unit.
 
-What we actually want is not a perfectly balanced game where units have the perfect trade off every single time. We want **some units to deviate from the balanced curve** that our game inherently has. Developers from Wizards of the Coast called it "The Jedi Curve", and they allowed their cards to deviate from said curve positively or negatively by 10-15%. this brough a wider array of options to choose from by simply making some units stronger than others.
+What we actually want is not a perfectly balanced game where units have the perfect trade off every single time. We want **some units to deviate from the balanced curve** that our game inherently has. Developers from Wizards of the Coast called it ***The Jedi Curve***, and they allowed their cards to deviate from said curve positively or negatively by 10-15%. this brough a wider array of options to choose from by simply making some units stronger than others.
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/jedi%20curve.png" width ="500">
+</p>
 
 
 ### Theory applied to armies
@@ -179,6 +183,12 @@ So far, we have assumed that both players have the same exact units and structur
 Asymmetrical balancing is the way to make a game with factions or different themes for troops unique and make the players employ a certain strategy or another based on the strengths and weaknesses that each different faction carries.
 
 It is not necessary to make you game have additional factions because it might not even improve the game and making a game that has no mirrored factions is resource-consuming for the developer team. And you might be working on a feature that has no real positive impact on your game whatsoever, will make it harder to balance and you will lose time on a feature that might hinder the basic game flow.
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/terran%20protoss%20zerg.png" width ="500">
+</p>
+
+*All credits for this image belongs to [Keyan3D](https://www.deviantart.com/keyan3d )*
 
 ### Ways to approach asymmetric design
 
@@ -286,6 +296,14 @@ In this section, we will go through some main points that you can apply to you g
 
 By making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challenged when facing tougher enemies, therefore, he needs to build and think strategies that can work against units that have more HP and damage. The process of making the player come up with a strategy indirectly makes him think that the AI is harder to deal with.
 
+As we can see in the image below, the percentage of players that claimed that the AI was "very intelligent" jumped from a mere 8% when playeres where facing low damagin, low HP monsters. In contrast, this percentage skyrocketed to an astounding 43% when players where facing high damaging, high HP monsters.
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/tougher%20enemies%20graph.png" width ="500">
+</p>
+
+*Photo taken from [this](https://www.youtube.com/watch?v=9bbhJi0NBkk) video By GameMaker'sTollkit*
+
 ### Make the AI have different personalities
 
 You should make every encounter and battle feel unique in a way that can be memorable for the player. Maybe one opponent can have a build order optimized in getting map control early in the game so they establish a superior economy than the player, so they would be owerwhelmed by a huge army. Perhaps another can have a build order that's suited for fast-paced games where the AI rushes the players base early on and tries to win via early and successful skirmishes.
@@ -320,6 +338,12 @@ This is also crucial to make every encounter feel unique. Because it prevents th
 This is not intended to be applied to RTS because rarely, if not never, you won't be working alongside an AI-driven ally. But it's a nice way to add more value and meaning to the game. 
 
 An extremely good example analysing Final Fantasy XV's character, Prompto, who will be taking selfies when certain thresholds have been triggered or when the character feels like doing so. Gameplay wise, this has no value whatsoever. But it adds a tremendous amount of complexity to Prompto's character and makes him feel like he's self-aware.
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/prompto%20selfie%20system.jpg" width ="500">
+</p>
+
+*Prompto's selfie system in the form of a flowchart*
 
 ## Single-player modes 
 
@@ -429,5 +453,6 @@ It was extremely interesting because there's just so many things to talk about t
 
 - **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** <https://youtu.be/F1w-qCbYVe8/>
 
+  - The source material in this video's description is absolutely fantasic and extensive.
 
 
