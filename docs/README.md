@@ -170,7 +170,7 @@ And the other has an army of:                            26 soldiers, 7 snipers 
 
 P1 has 44 total units. P2 has 45 units. So the armies have an extremely similar value when it comes to numbers. Now let's try to analyze this mathematically.
 
-
+TODO
 
 ## Asymmetrical balancing
 
@@ -198,9 +198,8 @@ Asymmetric design if often related to map design, more so in StraCraft, where ma
 - **Rushing:** Rushing is the most simple yet effective strategy in an RTS game. This strategy revolves around the early creation and manipulation of cheap and expendable units as fast as possible. Then you send them rushing into the enemies' base before thay even get the chance to build up and economy or even build enough defensive troops. However, if the enemy anticipates this move and builds a counter for it, it sets the rushing player in a really precarious position where they spent all their initial resources into an army that died. Thus, setting them behind in all the aspects of the game. Such as expanding, base building and tech tree climbing.
 
   - **Zerg rush:** This concept is brought to its peak with the StarCraft faction, the Zergs. The Zergs are able to rapidly produce a huge army of small, offensive units called Zerglings. This army allows the player utilizing the strategy to quickly overwhelm his enemy early in the game. 
-  **Trivia:** If you seach "Zerg rush" in Google, an easter egg wil pop put where you have to destroy "zergligns"! It even counts the APM and it will keep track of the killcount.
   
-
+  **Trivia:** If you seach "Zerg rush" in Google, an easter egg wil pop put where you have to destroy "zergligns"! It even counts the APM and it will keep track of the killcount.
 
 - **Turtling:** Tutrtling, as the name defines, it focuses on base building and creating an impregnable defense that no matter what army the enemy brings, it wil hold off any offensive approaches. Then, when the player manages to repel and kill the enemy army, he retaliated with a counter attack that the enemies can't react in time to because they have spent all their resources on and army that is long dead. 
 
@@ -243,7 +242,7 @@ This is where player agency comes to play. The definition for this concept can b
 
 So why this aspect of RTS is the root of almost all games in this genre? The key word is progress. This system allows putting pressure on the players the moment a match begins for a race on who is the one that can collect resources more efficiently and spend it in the best possible way taking into consideration how his enemy plays. This is closely related to the overall state of the economy for both players. Progress is often represented with physical objects that both users can interact with (units, structures or upgrades). The player has to intentionally invest his income in order to progress through the match by building, fighting and upgrading his base and army. 
 
-This means that both players have the agency to **directly** interfere with his enemies' economy at any point of the game by sending troops to sabotage or preferably to destroy his collectors or kill his harvesters. This means that players **ought to lose** invested value in the form of buildings/troops. The more proactive and thoughtful actions that one players takes, the more overall agency he will possess. This means that he will have a wider array of options to influence the state of the game compared to his opponent, who fell
+This means that both players have the agency to **directly** interfere with his enemies' economy at any point of the game by sending troops to sabotage or preferably to destroy his collectors or kill his harvesters. This means that players **ought to lose** invested value in the form of buildings/troops. The more proactive and thoughtful actions that one players takes, the more overall agency he will possess. This means that he will have a wider array of options to influence the state of the game compared to his opponent, who fell behind because one player took more proactive actions, therefore, rising his agency throughout the course of the match.
 
 
 ## Technology tree
@@ -259,9 +258,11 @@ TODO
 
 ## Artificial Intelligence (AI)
 
-AI must fit the game's intended experience. Good AI is not only the one who can beat the player. 
+AI must fit the game's intended experience. Good AI is not only the one who can beat the player. It's one that offers interesting gameplay situations and complex decision-making. The complexity of the AI within any game is **directly proportional** on how you realistic you want the machine to feel.
 
-The complexity of the AI within any game is 
+In this section, we will go through some main points that you can apply to you game so that AI feels more realistic or challenging.
+
+Keep in mind that this in not a technical guide on how to *implement* AI in your game.
 
 ### Make machine driven units more resilient
 
@@ -302,10 +303,21 @@ This is not intended to be applied to RTS because rarely, if not never, you won'
 
 An extremely good example analysing Final Fantasy XV's character, Prompto, who will be taking selfies when certain thresholds have been triggered or when the character feels like doing so. Gameplay wise, this has no value whatsoever. But it adds a tremendous amount of complexity to Prompto's character and makes him feel like he's self-aware.
 
-## Single player modes and map design
+## Single player modes 
 
+
+### Map design and balance for SCII
 TODO
 
+## Conclusions and personal thoughts on the topic
+
+The methods I've explained **are not definitive.** This means that they should be used a guideline for balancing your own RTS. They will help you to focus you game on the right direction and, most likely, will allow you to establish a balanced base from where you should start from. 
+
+In game design, it is absolutely imperative that you **PLAYTEST** you own game and through **trial and error,** make as many **iterations as possible** to ensure that you game is both balanced but more importantly **fun** to play with.
+
+This was a really interesting yet challenging topic to cover because I was not an avid player who was really attracted to this genre. So I had no basis to start from nor personal experience. So the first thing you need to make sure you check out when explaining an extensive and convoluted topic to others and guide them, is that you, personally, understand it. So I started playing a few matches of SCII to understand *how* they work.
+
+It was extremely interesting because there's just so many things to talk about that it would be impossible for someone to cover each and every topic in this extremely complex yet seemigly simple genre. The deeper you dig into this topic, the lower you fall to a rabbit hole of wanting to know everything about balancing RTSs.
 
 ## Bibliography and Webgraphy 
 
