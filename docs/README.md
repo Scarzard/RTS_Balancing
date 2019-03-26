@@ -269,7 +269,9 @@ The next step is thinking on what units should be available the moment a match s
 
 Let's schematize what we just discussed in the image below:
 
-IMAGE GOES HERE
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/tech%20tree.png">
+</p>
 
 
 ## Artificial Intelligence (AI)
@@ -329,9 +331,21 @@ I will be discussing the fascinating world of single-player modes on specific le
 
 First of all, the objective of this mission is to earch the main objective, it's marked witha green cross. As we can observe, there's a chokepoint and the path is blocked by a pair of Mammoth Tanks(MT) one of these units alone would be enough to wipe you entire army, that is composed of 1 Mobile Contruction Vehicle, vital to beat this game, 1 light tank and 2 attack bikes with 2 buggies attached to them. Making a total of 6 starting units. This level requires you to cleverly utilize your extremely limited army to beat this seemingly impossible level and take advantage of the map's layout.
 
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/step1.png">
+</p>
+
 The first step in order to beat this level is having one of you bikes lure a single MT and move it away from the chokepoint. The only thing you should do is lure it clockwise with the huge montain in the top-middle of the map. Once lured, you proceed to do the same whith the other buggy when the 1st one reaches 12 o'clock. After this has been done, you have to move your MCV to the destination.
 
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/step2.png">
+</p>
+
 After this is done and you have your base under construction, you have 2 options: destroy the tanks or have the lured forever. The first choice is the more optimal one since having to constantly micromanage 2 bikes while defending, expanding and upgrading you base would distract you from efficiently carrying out these tasks. So the way to do it is to send one attack bike after each MT so the MT chases the buggy while the attack bike pokes it from behind untill both are destroyed. 
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/strategy_chart.png">
+</p>
 
 *Visual representation of this tactic*
 
@@ -353,7 +367,7 @@ In game design, it is absolutely imperative that you **PLAYTEST** you own game a
 
 This was a really interesting yet challenging topic to cover because I was not an avid player who was really attracted to this genre. So I had no basis to start from nor personal experience. So the first thing you need to make sure you check out when explaining an extensive and convoluted topic to others and guide them, is that you, personally, understand it. So I started playing a few matches of SCII to understand *how* they work.
 
-It was extremely interesting because there's just so many things to talk about that it would be impossible for someone to cover each and every topic in this extremely complex yet seemigly simple genre. The deeper you dig into this topic, the lower you fall to a rabbit hole of wanting to know everything about balancing RTSs.
+It was extremely interesting because there's just so many things to talk about that it would be impossible for someone to cover each and every topic in this extremely complex yet seemigly simple genre. The deeper you dig into this topic, the lower you fall to a rabbit hole of wanting to know everything about balancing RTS games.
 
 ## Bibliography and Webgraphy 
 
