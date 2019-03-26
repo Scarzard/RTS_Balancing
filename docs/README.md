@@ -432,8 +432,56 @@ After you have dealt with both MTs, the waves will start to roll in and you'll h
 If you wnat to design your own single player, keep in mind how this specific level is designed and take the points that you think are relevalnt for your making your ow. Because making levels that are based on base-building, expanding and evolving and the only variable factor is how tough/numerous the enemies are can become really tiresome to complete.
 
 
-### Map design and balance for SCII
-TODO
+## Map design and balance for SCII
+
+Map design is a though and complex topic to handle, especially with abstract units and with a game that theoretically doesn't exist. That's the reasoning behind using one of the most famous RTS game of all time, StarCraft II.
+
+In StarCraft II, unit balancing is not a topic that developers touch with frequency. What they focus on is designing maps that counter the factions themselves. What this means is that the developers utilize the map's layout and design to counter the inherent strengths of a certain faction. Be aware that this is not a statement claiming that StarCraft developer's don't balance out units often. Balancing is a recurrent topic when it comes to designing videogames for this specific genre. For example, every main base **needs** a defensive ramp to counter zerg's mobility. 
+
+### Chokepoints 
+
+Chokepoints are essential when designing a map because it creates a point of contention for both players because whatever lies on the other is significantly easier to defend, thus, making successful attacks to the location is greatly reduced. Chokepoints are made by two main concepts: the **width** and if it's a **ramp** or not. 
+- **Width:** The width of a chokepoint is extremely important since a tight chokepoint makes ranged units excel and usually small skirmishes happen. But wider and more open chokepoints makes melee troops able to swarm and overwhelm. It also favors larger scale battles.
+- **Ramp:** If a chokepoint lead to a different elevation then it's called a ramp. This is especially important in StarCraft because having control of the high ground means receiving a passive buff that lasts for as long as you control said zone. Ramps is the most common way to balance or neutralize the strengths of the Zerg faction, more specifically, the Zerg Rushing tactic.
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/ramp.jpg">
+</p>
+
+
+### Openness
+
+The openness of a map refers to the shape of the overall region where the match is going to take place. This also determines how the zones of the map relate to each other, establishing at the same time how easy or hard it will be to defend said zone. 
+
+The elevations of each zone should also be included in this section.
+
+### Resource
+
+In this section, you should decide how resources are split in the map. It's important that you place them in places where there will be contention or a fight for resources because you dont want players to play a parallel match where they just gather resources and then go into a big, decisive fight. The location is also important for the fact that the players will build bases around resource locations.
+
+### Starting points
+
+This needs to be well-defined because it's where the players will start on the map. It is extremely important that belligerent factions are not close to each other when starting. You should locate this points strategically so that the players will have a delayed encounter(in the ideal situation) when they are expanding their bases. They should allow the player to move to whatever location he desires, so it shouldn't block possible paths that both players can take.
+
+#### Base location
+
+An important property of locations is the amount of resources they contain. To be able to create balance in our maps, we should distribute our resources equally for each player. This doesn't mean that the enemy can't take this points of interest from you, even though it was designed that you should have it. A base location should be equidistant from all near resources. 
+
+The base layout is extremely important that they are close physically in order to counter [Medivac Drops](https://www.youtube.com/watch?v=YFm4MOPN3ME) for the Terran faction.
+
+#### Map symmetry
+
+This is the absolute basic concept for balancing a map. Make sure that players are able to achieve the same thing and collect the same amount of resources. If a map lack this property, most likely, it will be deemed as extremely unbalanced and unfair.
+
+Often, map creators will the the artifical look that a symmetrical map produces by changing game elements that don't have any impact on gameplay whatsoever. For example, changing the textures throughout the map so that the player feels in a more natural environment. This practice is called *functional symmetry*.
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/Scarzard/RTS_Balancing/master/docs/Web%20Images/Circuit_Breakers.jpg">
+</p>
+
+*Competitive map: Circuit Breaker. Often tagged as the most balanced map of all time*
+
+You can also see competitive maps that are currently being used [here](https://liquipedia.net/starcraft2/Maps/Competition_Maps).
 
 ## Conclusions and personal thoughts on the topic
 
@@ -450,7 +498,7 @@ It was extremely interesting because there's just so many things to talk about t
 ### Links
 
 #### Balancing
-- **Game balance:** <https://en.wikipedia.org/wiki/Game_balance/>
+- **Game balance:** <https://en.wikipedia.org/wiki/Game_balance>
 
 - **Introduction to unit balancing:** <http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/>
 
@@ -477,7 +525,7 @@ It was extremely interesting because there's just so many things to talk about t
 
 #### Tech trees
 
-- **Technology tree:** <https://en.wikipedia.org/wiki/Technology_tree/>
+- **Technology tree:** <https://en.wikipedia.org/wiki/Technology_tree>
 
 - **Technology Trees: Freedom and Determinism in Historical Strategy Game by Tuur Ghys:** <http://www.gamestudies.org/1201/articles/tuur_ghys/>
 
@@ -487,15 +535,16 @@ It was extremely interesting because there's just so many things to talk about t
 
 - **Level design for single player campaigns:** <http://www.ultimaratioregum.co.uk/game/tag/rts/>
 
+- **Competitive map pool for StarCraft II:** <https://liquipedia.net/starcraft2/Maps/Competition_Maps>
+
 
 ### Abstracts/PDFs
 
-- ***Really extensive* article about Balancing Real-Time Strategy Games:** <https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y/>
+- ***Really extensive* article about Balancing Real-Time Strategy Games:** <https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y>
 
-- **Call for AI Research in RTS Games:** <https://skatgame.net/mburo/ps/RTS-AAAI04.pdf/>
+- **Call for AI Research in RTS Games:** <https://skatgame.net/mburo/ps/RTS-AAAI04.pdf>
 
-- **Balanced map generation for SC:** <http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf/>
-
+- **Balanced map generation for SC:** <http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf>
 
 
 ### Videography
@@ -505,6 +554,6 @@ It was extremely interesting because there's just so many things to talk about t
 
 - **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** <https://youtu.be/F1w-qCbYVe8/>
 
-  - The source material in this video's description is absolutely fantasic and extensive.
+  - The source material in this video's description is absolutely fantasic and really extensive.
 
 
