@@ -91,7 +91,9 @@ For the calculations, instead of using ratios, we will now use a term widely use
 | **Sniper**| 100 | 40% |
 | **Jetpack**| 150 | 60%|
 
-The calculations for the following payoff table will be similar to what we have applied in the first section of the research where we were calculating the ratio of usage. In this case we will apply very similar equations to get the payoff or remaining value of a unit, or the value remaining when they face each other, for every possible encounter with our 3 theoretical units. The equation that we will use is the following `Payoff = Enemy cost * (% of lost HP / 100) - Allied cost`
+The calculations for the following payoff table will be similar to what we have applied in the first section of the research where we were calculating the ratio of usage. In this case we will apply very similar equations to get the payoff or remaining value of a unit, or the value remaining when they face each other, for every possible encounter with our 3 theoretical units. The equation that we will use is the following 
+
+`Payoff = Enemy cost * (% of lost HP / 100) - Allied cost`
 
 |-|Soldier|Sniper|Jetpack|
 |---|---|---|---|
@@ -150,14 +152,62 @@ p' = 1 - s' - j' = 1 - 0.37 - 0.41 = 0.22
 
 #### Results analysis
 
+As we can see from the pick ratios we can assume that our game is decently balanced because the pick rates are fairly similar. There is no dominant unit that rules above other, thus there's no unit that players can abuse and utilize to win games. Some will argue that the Jetpack is a pretty dominant unit who is chosen 41% of the time. To balance the fundamental strength of a unit, we can lock it behind an upgrade in our technological tree, which will be explain further into the research but you can check what this concept is [here.]()
 
+In case we would want a perfectly balanced game where all units are chosen the same amount of time, by simply looking at the ratios, we can assume that either snipers are not very cost effective, therefore we should lower their cost, or jetpacks are offer way more value for its cost than other unit. So by rising the cost of this unit it should drive people away from  mass-producing this unit. Although, this procedure is **not encouraged** unless there's a clear dominance from one unit.
+
+What we actually want is not a perfectly balanced game where units have the perfect trade off every single time. We want **some units to deviate from the balanced curve** that our game inherently has. Developers from Wizards of the Coast called it "The Jedi Curve", and they allowed their cards to deviate from said curve positively or negatively by 10-15%. this brough a wider array of options to choose from by simply making some units stronger than others.
 
 
 ### Theory applied to armies
 
-As we all know, RTS does not involve in 1v1 fights between only 3 possible units. In this genre, massive-scale battles takes place in the map and throughout the course of the match so, even though the calculation we did previously greatly helps in balacing units, **it is not a definitive way to balance them.** The process is arduous and repetitive because it involes a lot of 
+As we all know, RTS does not involve in 1v1 fights between only 3 possible units. In this genre, massive-scale battles takes place in the map and throughout the course of the match so, even though the calculations we did previously greatly helps in balancing units, **it is not a definitive way to balance them.** The process is **arduous and repetitive because it involes a lot of playtesting and trial and error.**
+
+In this section, we will discuss a way to get the abstract value of an army vs the other. For simplicity's sake, we will use the units we have created before.
+
+We will assume that one player has a the following army: 15 soldiers, 19 snipers and 10 jetpacks. 
+And the other has an army of:                            26 soldiers, 7 snipers and 12 jetpacks. 
+
+P1 has 44 total units. P2 has 45 units. So the armies have an extremely similar value when it comes to numbers. Now let's try to analyze this mathematically.
+
+TODO
+
+## Asymmetrical balancing
+
+So far, we have assumed that both players have the same exact units and structures. But in reality, some RTS follow this design and some choose to apply asymmetry in their game. And even if they don't apply and asymmetric approach, like in Warcraft II, where units from the Alliance or the Horde have the exact same stats (Dragon and Gryphon, Grunt and Footman) but they are visually different. What differs is the spells that each player gets from their units. This is a great way to make you game symmetrical when it comes to troop stats so it's easier to balance them. But having differences in the spells that you can use makes the faction adapt to a certain play style or another.
+
+Asymmetrical balancing is the way to make a game with factions or different themes for troops unique and make the players employ a certain strategy or another based on the strengths and weaknesses that each different faction carries.
+
+It is not necessary to make you game have additional factions because it might not even improve the game and making a game that has no mirrored factions is resource-consuming for the developer team. And you might be working on a feature that has no real positive impact on your game whatsoever, will make it harder to balance and you will lose time on a feature that might hinder the basic game flow.
+
+### Ways to approach asymmetric design
+
+The most basic and yet most important factor on considering the implementation of different factions is **variation.** This concept prevents the players to feel that the game is getting being repetitive and stagnant.
+
+The second one, closely related to the different strategis that players might want to utilize. Because, as we said, each faction has its inherent strengths and weaknesses, thus, catering a certain player base or another.
+
+Asymmetric design can be a tough thing to deal with when not implemented correctly because even if each faction excels in some way, having them balanced out in a taking into account all the possible variables that an RTS offers, can be a daunting task to deal with. What we should keep in mind is that even though certain factions are strong at employing a specific strategy, there's also a weakness to deal with. And following the concept of strength vs weakness from the unit balacing section, weaknesses often are the essential part that every faction should carry so that his enemy can create a plan around exploiting that weakness and giving him an edge.
+
+You should play around you game's strengths and reinforce them with asymmetric design. What does this mean? That if you game has an excellent combat system, don't confuse the player by also implementing a complex resource system. Streamline the resource management as much as possible so that the players spend more time fighting than colleting.
+
+Asymmetric design if often related to map design, more so in StraCraft, where map design plays a huge role on keeping in check that strengths that each faction has. We will cover this topic later on the research.
 
 
+##  Defining gameplay styles in RTS
+
+- **Rushing:** Rushing is the most simple yet effective strategy in an RTS game. This strategy revolves around the early creation and manipulation of cheap and expendable units as fast as possible. Then you send them rushing into the enemies' base before thay even get the chance to build up and economy or even build enough defensive troops. However, if the enemy anticipates this move and builds a counter for it, it sets the rushing player in a really precarious position where they spent all their initial resources into an army that died. Thus, setting them behind in all the aspects of the game. Such as expanding, base building and tech tree climbing.
+
+  - **Zerg rush:** This concept is brought to its peak with the StarCraft faction, the Zergs. The Zergs are able to rapidly produce a huge army of small, offensive units called Zerglings. This army allows the player utilizing the strategy to quickly overwhelm his enemy early in the game. 
+  
+  **Trivia:** If you seach "Zerg rush" in Google, an easter egg wil pop put where you have to destroy "zergligns"! It even counts the APM and it will keep track of the killcount.
+
+- **Turtling:** Tutrtling, as the name defines, it focuses on base building and creating an impregnable defense that no matter what army the enemy brings, it wil hold off any offensive approaches. Then, when the player manages to repel and kill the enemy army, he retaliated with a counter attack that the enemies can't react in time to because they have spent all their resources on and army that is long dead. 
+
+- **Map control:** Map control refers to the strategy involving control major parts of the map so he has more options to expand to and collect more resources than the enemy. Thus establishing an economic advantage that the enemy can't, in any way, counter because he doesn't have enough agency to do so. The downside for this tactic is that having to defend each point of contention in a wide area is often not even possible without prediction and foresight.
+
+- **Booming:** This strategy focuses on climbing the tech tree as fast as possible in order to unlock sturdier and more effective troops than his enemy. This leaves you main base completely defenseless against early enemy attacks. So you must identify players that will rush by scouting their base earlier than usual.
+
+- **Raiding:** Raiding focuses on small-scale skirmishes to make the enemy react to his actions. This often distracts the foe from effectively gathering resources and make small mistakes that over time, can cost him the game. And if the enemy doesn't defend from the raids, he can lose potential map control and thus, agency that will make him fall behind in every aspect of the game. A major downside is that if you gradually get countered when you raiding, the one falling behing would be one employing the strategy. 
 
 
 ## Resource systems, management and control of its economy
@@ -192,7 +242,7 @@ This is where player agency comes to play. The definition for this concept can b
 
 So why this aspect of RTS is the root of almost all games in this genre? The key word is progress. This system allows putting pressure on the players the moment a match begins for a race on who is the one that can collect resources more efficiently and spend it in the best possible way taking into consideration how his enemy plays. This is closely related to the overall state of the economy for both players. Progress is often represented with physical objects that both users can interact with (units, structures or upgrades). The player has to intentionally invest his income in order to progress through the match by building, fighting and upgrading his base and army. 
 
-This means that both players have the agency to **directly** interfere with his enemies' economy at any point of the game by sending troops to sabotage or preferably to destroy his collectors or kill his harvesters. This means that players **ought to lose** invested value in the form of buildings/troops. The more proactive and thoughtful actions that one players takes, the more overall agency he will possess. This means that he will have a wider array of options to influence the state of the game compared to his opponent, who fell
+This means that both players have the agency to **directly** interfere with his enemies' economy at any point of the game by sending troops to sabotage or preferably to destroy his collectors or kill his harvesters. This means that players **ought to lose** invested value in the form of buildings/troops. The more proactive and thoughtful actions that one players takes, the more overall agency he will possess. This means that he will have a wider array of options to influence the state of the game compared to his opponent, who fell behind because one player took more proactive actions, therefore, rising his agency throughout the course of the match.
 
 
 ## Technology tree
@@ -203,18 +253,36 @@ The main usage for these graphs, is for the developers to have a deep understand
 
 ## How to create our own technological tree?
 
+In order to make our own technology tree(TT) we have to know what elements compose a TT: building and its upgrades, units and its upgrades.
 
+For simplicity's sake, we will use the units he have created earlier in the unit balancing section. So we have 3 possible units that we are able to create. We will also need some sort of buildings that manages the upgrades of the units and allows us to create more powerful ones. Here's a list of what we will have available:
+
+|Buildings|Units|Upgrades|
+|---|---|---|
+| Town hall| Soldier | Soldier upgrade | 
+| Barracks| Sniper | Sniper upgrade  | 
+| Barracks II| Jetpck |  Jetpak upgrade | 
+
+The TT should be a representation of how all these elements are linked together to understand how your own games works. But it should also be useful for players as a visual guide on how different game elements interact with eachother. 
+
+The next step is thinking on what units should be available the moment a match starts and which units should be unlocked as the player progresses on the TT. What I would do in this specific case, is to have the snipers unlocked at the beginning while the other troops are locked behind a building. This means that you have to build said building to unlock it. After you build the barracks, you unlock the counter for sniper's the soldier. And at the same time, the sniper upgrade is offered to the player by the town hall. So the first important decision that the player should take is whether upgrade snipers or unlock their counter. After building barracks, the player is offered if he wants to upgrade his soldiers or unlock the counter for the soldiers, the jectpacks, by upgrading his barracks. And last, the barracks II offers the player to upgarde his jetpacks so thei are more powerful. 
+
+Let's schematize what we just discussed in the image below:
+
+IMAGE GOES HERE
 
 
 ## Artificial Intelligence (AI)
 
-AI must fit the game's intended experience. Good AI is not only the one who can beat the player. 
+AI must fit the game's intended experience. Good AI is not only the one who can beat the player. It's one that offers interesting gameplay situations and complex decision-making. The complexity of the AI within any game is **directly proportional** on how you realistic you want the machine to feel.
 
-The complexity of the AI within any game is 
+In this section, we will go through some main points that you can apply to you game so that AI feels more realistic or challenging.
+
+*Keep in mind that this in not a technical guide on how to implement AI in your game*
 
 ### Make machine driven units more resilient
 
-ty making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challenged when facing tougher enemies, therefore, he needs to build and think strategies that can work against units that have more HP and damage. The process of making the player come up with a strategy indirectly makes him think that the AI is harder to deal with.
+By making enemy units that the game itself controls, it makes the player thing that they are more intelligent that they actually are. This sensation is achieved because he feels challenged when facing tougher enemies, therefore, he needs to build and think strategies that can work against units that have more HP and damage. The process of making the player come up with a strategy indirectly makes him think that the AI is harder to deal with.
 
 ### Make the AI have different personalities
 
@@ -251,46 +319,101 @@ This is not intended to be applied to RTS because rarely, if not never, you won'
 
 An extremely good example analysing Final Fantasy XV's character, Prompto, who will be taking selfies when certain thresholds have been triggered or when the character feels like doing so. Gameplay wise, this has no value whatsoever. But it adds a tremendous amount of complexity to Prompto's character and makes him feel like he's self-aware.
 
+## Single-player modes 
+
+So far, we have discussed balancing taking into consideration that our player is facing another player. But what abou the importance of single-player modes? These offer the players to play the game in a way that cannot be thought about in PvP games. This often rely on advanced map design and making the player think outside the box in order to beat the levels.
+
+I will be discussing the fascinating world of single-player modes on specific level in the [original Command&Conquer](https://en.wikipedia.org/wiki/Command_%26_Conquer).
+
+*Disclaimer: All the images and information are extracted from the following website. All credits to the original author, [Dr. Mark R. Johnson](http://www.ultimaratioregum.co.uk/about-me/)*
+
+First of all, the objective of this mission is to earch the main objective, it's marked witha green cross. As we can observe, there's a chokepoint and the path is blocked by a pair of Mammoth Tanks(MT) one of these units alone would be enough to wipe you entire army, that is composed of 1 Mobile Contruction Vehicle, vital to beat this game, 1 light tank and 2 attack bikes with 2 buggies attached to them. Making a total of 6 starting units. This level requires you to cleverly utilize your extremely limited army to beat this seemingly impossible level and take advantage of the map's layout.
+
+The first step in order to beat this level is having one of you bikes lure a single MT and move it away from the chokepoint. The only thing you should do is lure it clockwise with the huge montain in the top-middle of the map. Once lured, you proceed to do the same whith the other buggy when the 1st one reaches 12 o'clock. After this has been done, you have to move your MCV to the destination.
+
+After this is done and you have your base under construction, you have 2 options: destroy the tanks or have the lured forever. The first choice is the more optimal one since having to constantly micromanage 2 bikes while defending, expanding and upgrading you base would distract you from efficiently carrying out these tasks. So the way to do it is to send one attack bike after each MT so the MT chases the buggy while the attack bike pokes it from behind untill both are destroyed. 
+
+*Visual representation of this tactic*
+
+After you have dealt with both MTs, the waves will start to roll in and you'll have to defend your base at all costs!
+
+**Summary:** this level design is carefully crafted so that the smallest detail has to play a big role in order for the player to beat the level. The first part of the mission a meticulous execution in order to surpass a seemingly impossible barrier that the MTs make.
+
+If you wnat to design your own single player, keep in mind how this specific level is designed and take the points that you think are relevalnt for your making your ow. Because making levels that are based on base-building, expanding and evolving and the only variable factor is how tough/numerous the enemies are can become really tiresome to complete.
 
 
+### Map design and balance for SCII
+TODO
 
+## Conclusions and personal thoughts on the topic
 
+The methods I've explained **are not definitive.** This means that they should be used a guideline for balancing your own RTS. They will help you to focus you game on the right direction and, most likely, will allow you to establish a balanced base from where you should start from. 
+
+In game design, it is absolutely imperative that you **PLAYTEST** you own game and through **trial and error,** make as many **iterations as possible** to ensure that you game is both balanced but more importantly **fun** to play with.
+
+This was a really interesting yet challenging topic to cover because I was not an avid player who was really attracted to this genre. So I had no basis to start from nor personal experience. So the first thing you need to make sure you check out when explaining an extensive and convoluted topic to others and guide them, is that you, personally, understand it. So I started playing a few matches of SCII to understand *how* they work.
+
+It was extremely interesting because there's just so many things to talk about that it would be impossible for someone to cover each and every topic in this extremely complex yet seemigly simple genre. The deeper you dig into this topic, the lower you fall to a rabbit hole of wanting to know everything about balancing RTSs.
 
 ## Bibliography and Webgraphy 
 
 ### Links
 
 #### Balancing
-- **Game balance:** https://en.wikipedia.org/wiki/Game_balance
+- **Game balance:** <https://en.wikipedia.org/wiki/Game_balance/>
 
-- **Introduction to unit balancing:** http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/
+- **Introduction to unit balancing:** <http://www.oxeyegames.com/rts-game-play-part-5-introduction-to-unit-balancing/>
 
-- **Intransitive mechanics:** https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/
+- **Intransitive mechanics:** <https://gamebalanceconcepts.wordpress.com/2010/09/01/level-9-intransitive-mechanics/>
 
-- **Pay-off table definition:** http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx
+- **Pay-off table definition:** <http://kfknowledgebank.kaplan.co.uk/KFKB/Wiki%20Pages/Payoff%20tables.aspx>
+
+- **Unit balancing discussion in forums:** <https://www.gamedev.net/forums/topic/490139-balancing-units-in-a-rts/>
+
+<https://forum.dune2k.com/topic/24505-rts-is-it-even-possible-to-balance/>
+
+- **Strategies employed in RTS:** <https://www.abc.net.au/goodgamesp/episodes/5-up-top-rts-strategies/10405478>
+
+  - **Rushing definition:** <https://en.wikipedia.org/wiki/Rush_(video_gaming)>
+
 
 #### Resource/economy management 
 
-- **Resource systems:** http://www.oxeyegames.com/rts-game-play-part-2-resource-systems/
+- **Resource systems:** <http://www.oxeyegames.com/rts-game-play-part-2-resource-systems/>
 
-- **Resource management in RTS:** https://waywardstrategy.com/2014/12/18/random-thoughts-on-resource-management-in-rts/
+- **Resource management in RTS:** <https://waywardstrategy.com/2014/12/18/random-thoughts-on-resource-management-in-rts/>
 
-- **Control of the economic processes:** https://waywardstrategy.com/2015/11/23/rts-design-thought-control-of-economic-processes/
+- **Control of the economic processes:** <https://waywardstrategy.com/2015/11/23/rts-design-thought-control-of-economic-processes/>
 
+#### Tech trees
+
+- **Technology tree:** <https://en.wikipedia.org/wiki/Technology_tree/>
+
+- **Technology Trees: Freedom and Determinism in Historical Strategy Game by Tuur Ghys:** <http://www.gamestudies.org/1201/articles/tuur_ghys/>
+
+
+
+#### Single player campaigns and map design
+
+- **Level design for single player campaigns:** <http://www.ultimaratioregum.co.uk/game/tag/rts/>
 
 
 ### Abstracts/PDFs
 
-- ***Really extensive* article about Balancing Real-Time Strategy Games:** https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y
+- ***Really extensive* article about Balancing Real-Time Strategy Games:** <https://brage.bibsys.no/xmlui/bitstream/handle/11250/2463289/13662_FULLTEXT.pdf?sequence=1&isAllowed=y/>
 
-- **Call for AI Research in RTS Games:** https://skatgame.net/mburo/ps/RTS-AAAI04.pdf)
+- **Call for AI Research in RTS Games:** <https://skatgame.net/mburo/ps/RTS-AAAI04.pdf/>
+
+- **Balanced map generation for SC:** <http://nova.wolfwork.com/papers/PSMAGE_Balanced_Map_Generation_Starcraft.pdf/>
 
 
 
 ### Videography
-- **Perfect Imbalance by ExtraCredits:** https://www.youtube.com/watch?v=e31OSVZF77w
+- **Perfect Imbalance by ExtraCredits:** <https://www.youtube.com/watch?v=e31OSVZF77w/>
 
-- **What Makes Good AI? by Game Maker's Toolkit:** https://youtu.be/9bbhJi0NBkk
+- **What Makes Good AI? by Game Maker's Toolkit:** <https://youtu.be/9bbhJi0NBkk/>
+
+- **What Makes RTS Games Fun: Asymmetric Design in RTS by GeneralsGentleman:** <https://youtu.be/F1w-qCbYVe8/>
 
 
 
